@@ -5,7 +5,9 @@
     "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": "./chunks/45/45ba29be4a3d1e8a8fa941895e078a469e7e7d39.js",
     "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": "./chunks/6f/6f506a6c5f563dadca4fc48dfada1288e8f5a8ac.js",
     "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "./chunks/41/4109426b88add842c9c43cc2e1bc4e30668de93e.js",
-    "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/ea/ea97adb72e4faec12843537599f72aa79dec8434.js"
+    "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/ea/ea97adb72e4faec12843537599f72aa79dec8434.js",
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts": "./chunks/4b/4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32.js",
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts": "./chunks/49/499aac45091eb17472394b25b10d98c99630323a.js"
   },
   "scopes": {
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -47,7 +49,15 @@
       "__unresolved_0": "./chunks/45/45ba29be4a3d1e8a8fa941895e078a469e7e7d39.js",
       "__unresolved_1": "./chunks/6f/6f506a6c5f563dadca4fc48dfada1288e8f5a8ac.js",
       "__unresolved_2": "./chunks/41/4109426b88add842c9c43cc2e1bc4e30668de93e.js",
-      "__unresolved_3": "./chunks/ea/ea97adb72e4faec12843537599f72aa79dec8434.js"
+      "__unresolved_3": "./chunks/ea/ea97adb72e4faec12843537599f72aa79dec8434.js",
+      "__unresolved_4": "./chunks/4b/4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32.js",
+      "__unresolved_5": "./chunks/49/499aac45091eb17472394b25b10d98c99630323a.js"
+    },
+    "./chunks/49/499aac45091eb17472394b25b10d98c99630323a.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/4b/4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/ea/ea97adb72e4faec12843537599f72aa79dec8434.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"

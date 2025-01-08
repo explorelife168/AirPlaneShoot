@@ -5,7 +5,7 @@
       "time": 1736232154554.9468
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scenes": {
-      "time": 1736231238384.3442,
+      "time": 1736240410207.3835,
       "uuid": "632723dc-08e9-481b-92de-3f7625a92ad0"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Images.meta": {
@@ -386,110 +386,159 @@
       "time": 1736232154554.1394,
       "uuid": "43a236a7-ea60-4c98-9a4b-510917e35522"
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound.meta": {
-      "time": 1736232154555.0725
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio.meta": {
+      "time": 1736236092790.4272
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/achievement.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio": {
+      "time": 1736232154559.1301,
+      "uuid": "2b7596ac-acda-470a-bf3d-f4373835173b"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/achievement.mp3.meta": {
       "time": 1736232154555.4612
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/big_spaceship_flying.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/big_spaceship_flying.mp3.meta": {
       "time": 1736232154555.743
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/bullet.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/bullet.mp3.meta": {
       "time": 1736232154556.0085
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/button.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/button.mp3.meta": {
       "time": 1736232154556.2756
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/enemy1_down.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/enemy1_down.mp3.meta": {
       "time": 1736232154556.5818
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/enemy2_down.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/enemy2_down.mp3.meta": {
       "time": 1736232154556.8848
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/enemy3_down.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/enemy3_down.mp3.meta": {
       "time": 1736232154557.145
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/game_music.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/game_music.mp3.meta": {
       "time": 1736232154557.7292
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/game_over.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/game_over.mp3.meta": {
       "time": 1736232154558.0005
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/get_bomb.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/get_bomb.mp3.meta": {
       "time": 1736232154558.319
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/get_double_laser.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/get_double_laser.mp3.meta": {
       "time": 1736232154558.5867
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/out_porp.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/out_porp.mp3.meta": {
       "time": 1736232154558.905
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/use_bomb.mp3.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/use_bomb.mp3.meta": {
       "time": 1736232154559.2043
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound": {
-      "time": 1736232154559.1301,
-      "uuid": "c2513a1f-7251-4623-8488-e34f2241a11f"
-    },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/bullet.mp3": {
-      "time": 1736232154555.8977,
-      "uuid": "a4d7b6d8-817a-4a27-8c1e-a1ea155c4e5f"
-    },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/button.mp3": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/button.mp3": {
       "time": 1736232154556.1665,
       "uuid": "36820b0b-f166-4808-80fd-626d9fd0d520"
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/achievement.mp3": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/bullet.mp3": {
+      "time": 1736232154555.8977,
+      "uuid": "a4d7b6d8-817a-4a27-8c1e-a1ea155c4e5f"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/achievement.mp3": {
       "time": 1736232154555.3223,
       "uuid": "bf680618-d330-460a-816c-5fe62be91b22"
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/big_spaceship_flying.mp3": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/big_spaceship_flying.mp3": {
       "time": 1736232154555.6301,
       "uuid": "2328cef0-3e35-4049-a60c-2313beff0bb2"
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/enemy1_down.mp3": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/enemy1_down.mp3": {
       "time": 1736232154556.472,
       "uuid": "0d46601b-573f-48b4-a653-67f8f26f8cac"
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/enemy2_down.mp3": {
-      "time": 1736232154556.772,
-      "uuid": "e5ef6801-68ea-421c-bf65-f66e674f56ae"
-    },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/game_over.mp3": {
-      "time": 1736232154557.8938,
-      "uuid": "f9476f3e-9a04-43df-8409-148db3ec6cbf"
-    },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/enemy3_down.mp3": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/enemy3_down.mp3": {
       "time": 1736232154557.0337,
       "uuid": "23eaae3e-552f-4642-8dca-331052c7830a"
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/game_music.mp3": {
-      "time": 1736232154557.5984,
-      "uuid": "815b51d6-7dd7-4ef8-a4a4-e3f424d42c76"
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/enemy2_down.mp3": {
+      "time": 1736232154556.772,
+      "uuid": "e5ef6801-68ea-421c-bf65-f66e674f56ae"
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/get_bomb.mp3": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/game_over.mp3": {
+      "time": 1736232154557.8938,
+      "uuid": "f9476f3e-9a04-43df-8409-148db3ec6cbf"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/get_bomb.mp3": {
       "time": 1736232154558.195,
       "uuid": "91596de5-0b7e-476f-91cf-bec3dd8d9c00"
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/get_double_laser.mp3": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/game_music.mp3": {
+      "time": 1736232154557.5984,
+      "uuid": "815b51d6-7dd7-4ef8-a4a4-e3f424d42c76"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/get_double_laser.mp3": {
       "time": 1736232154558.482,
       "uuid": "fbdaddf3-df69-4a78-80d8-6b13fedae146"
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/out_porp.mp3": {
-      "time": 1736232154558.8013,
-      "uuid": "474462cf-e2d7-4f54-96c4-3a2376bdb774"
-    },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/use_bomb.mp3": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/use_bomb.mp3": {
       "time": 1736232154559.0967,
       "uuid": "0ff0ddc5-7ef8-4bea-b962-6a84aa3c5d5d"
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/01-Start.scene.meta": {
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Audio/out_porp.mp3": {
+      "time": 1736232154558.8013,
+      "uuid": "474462cf-e2d7-4f54-96c4-3a2376bdb774"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations.meta": {
+      "time": 1736237022497.1946
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations": {
+      "time": 1736327791557.0022,
+      "uuid": "3dbd1d00-b63e-4817-83d2-0ea538c1dc91"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Loading.anim.meta": {
+      "time": 1736237208760.9722
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Loading.anim": {
+      "time": 1736238689127.08,
+      "uuid": "2f6debb7-4bc0-4347-919c-71b87476bee7"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts.meta": {
+      "time": 1736239631646.7014
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts": {
+      "time": 1736241369346.601,
+      "uuid": "1373c5eb-53df-4187-a56e-9c6fbcdd3b40"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.meta": {
+      "time": 1736239686961.802
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts": {
+      "time": 1736240274398.0613,
+      "uuid": "2a6cfc38-7108-4839-88f6-2167cd39ab25"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scenes/02-GameScene.scene.meta": {
+      "time": 1736240384550.8298
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scenes/02-GameScene.scene": {
+      "time": 1736320961943.2075,
+      "uuid": "1704884b-2ded-4d8f-8800-f4571fec4b07"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scenes/01-Start.scene.meta": {
       "time": 1736232154538.1733
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/01-Start.scene": {
-      "time": 1736232154538.0469,
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scenes/01-Start.scene": {
+      "time": 1736240313204.227,
       "uuid": "0a506f0f-3369-4b87-b4b5-44f3ccc4829c"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.meta": {
+      "time": 1736241358444.0212
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts": {
+      "time": 1736321396486.6707,
+      "uuid": "5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Player_Idle.anim.meta": {
+      "time": 1736327791558.5947
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Player_Idle.anim": {
+      "time": 1736328422204.5989,
+      "uuid": "c4afcb4d-7d17-41b0-9fab-4b8f8384f6f1"
     }
   },
   "missing": {
@@ -769,74 +818,94 @@
       "removeTime": 1736231292190
     },
     "c2513a1f-7251-4623-8488-e34f2241a11f": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound",
-      "time": 1736231281125.9292,
-      "removeTime": 1736231298101
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound",
+      "time": 1736232154559.1301,
+      "removeTime": 1736236092784
     },
     "bf680618-d330-460a-816c-5fe62be91b22": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/achievement.mp3",
-      "time": 1736231281122.7832,
-      "removeTime": 1736231298101
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/achievement.mp3",
+      "time": 1736232154555.3223,
+      "removeTime": 1736236092784
     },
     "2328cef0-3e35-4049-a60c-2313beff0bb2": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/big_spaceship_flying.mp3",
-      "time": 1736231281122.4287,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/big_spaceship_flying.mp3",
+      "time": 1736232154555.6301,
+      "removeTime": 1736236092784
     },
     "a4d7b6d8-817a-4a27-8c1e-a1ea155c4e5f": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/bullet.mp3",
-      "time": 1736231281122.0708,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/bullet.mp3",
+      "time": 1736232154555.8977,
+      "removeTime": 1736236092784
     },
     "36820b0b-f166-4808-80fd-626d9fd0d520": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/button.mp3",
-      "time": 1736231281121.6184,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/button.mp3",
+      "time": 1736232154556.1665,
+      "removeTime": 1736236092784
     },
     "0d46601b-573f-48b4-a653-67f8f26f8cac": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/enemy1_down.mp3",
-      "time": 1736231281120.895,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/enemy1_down.mp3",
+      "time": 1736232154556.472,
+      "removeTime": 1736236092784
     },
     "e5ef6801-68ea-421c-bf65-f66e674f56ae": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/enemy2_down.mp3",
-      "time": 1736231281120.4727,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/enemy2_down.mp3",
+      "time": 1736232154556.772,
+      "removeTime": 1736236092784
     },
     "23eaae3e-552f-4642-8dca-331052c7830a": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/enemy3_down.mp3",
-      "time": 1736231281120.0076,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/enemy3_down.mp3",
+      "time": 1736232154557.0337,
+      "removeTime": 1736236092784
     },
     "815b51d6-7dd7-4ef8-a4a4-e3f424d42c76": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/game_music.mp3",
-      "time": 1736231281119.6587,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/game_music.mp3",
+      "time": 1736232154557.5984,
+      "removeTime": 1736236092784
     },
     "f9476f3e-9a04-43df-8409-148db3ec6cbf": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/game_over.mp3",
-      "time": 1736231281119.0051,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/game_over.mp3",
+      "time": 1736232154557.8938,
+      "removeTime": 1736236092784
     },
     "91596de5-0b7e-476f-91cf-bec3dd8d9c00": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/get_bomb.mp3",
-      "time": 1736231281118.5195,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/get_bomb.mp3",
+      "time": 1736232154558.195,
+      "removeTime": 1736236092784
     },
     "fbdaddf3-df69-4a78-80d8-6b13fedae146": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/get_double_laser.mp3",
-      "time": 1736231281118.1277,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/get_double_laser.mp3",
+      "time": 1736232154558.482,
+      "removeTime": 1736236092784
     },
     "474462cf-e2d7-4f54-96c4-3a2376bdb774": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/out_porp.mp3",
-      "time": 1736231281117.6394,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/out_porp.mp3",
+      "time": 1736232154558.8013,
+      "removeTime": 1736236092784
     },
     "0ff0ddc5-7ef8-4bea-b962-6a84aa3c5d5d": {
-      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/sound/use_bomb.mp3",
-      "time": 1736231281116.979,
-      "removeTime": 1736231298102
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Sound/use_bomb.mp3",
+      "time": 1736232154559.0967,
+      "removeTime": 1736236092784
+    },
+    "dd4824b5-86c3-4050-a493-ef2a8582163d": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/animation.anim",
+      "time": 1736237022495.76,
+      "removeTime": 1736237194511
+    },
+    "1373c5eb-53df-4187-a56e-9c6fbcdd3b40": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Script",
+      "time": 1736239631644.2502,
+      "removeTime": 1736239651312
+    },
+    "0a506f0f-3369-4b87-b4b5-44f3ccc4829c": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/01-Start.scene",
+      "time": 1736240313204.227,
+      "removeTime": 1736240410207
+    },
+    "5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bg.ts",
+      "time": 1736241358441.5454,
+      "removeTime": 1736241369347
     }
   }
 }

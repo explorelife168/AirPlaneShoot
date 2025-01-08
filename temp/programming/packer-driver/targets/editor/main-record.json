@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 10503.16954100132,
+      "mTimestamp": 4150.0338330001105,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -703,7 +703,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 12701.361665964127,
+      "mTimestamp": 19730836.267208,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -761,6 +761,34 @@
               "column": 711
             }
           }
+        },
+        {
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 727
+            },
+            "end": {
+              "line": 5,
+              "column": 809
+            }
+          }
+        },
+        {
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 825
+            },
+            "end": {
+              "line": 5,
+              "column": 904
+            }
+          }
         }
       ],
       "type": "esm",
@@ -790,6 +818,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts"
           },
           "messages": []
         }
@@ -900,7 +942,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1736231197886,
+      "mTimestamp": 1736301666193,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1085,6 +1127,162 @@
             "end": {
               "line": 1,
               "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts": {
+      "mTimestamp": {
+        "mtime": 1736240274398.0613,
+        "uuid": "2a6cfc38-7108-4839-88f6-2167cd39ab25"
+      },
+      "chunkId": "499aac45091eb17472394b25b10d98c99630323a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bg.ts": {
+      "mTimestamp": {
+        "mtime": 1736241358441.5454,
+        "uuid": "5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819"
+      },
+      "chunkId": "7aeb747205ebc4deacbfa397cf1ceb5edff4ba51",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts": {
+      "mTimestamp": {
+        "mtime": 1736321396486.6707,
+        "uuid": "5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819"
+      },
+      "chunkId": "4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
             }
           }
         }

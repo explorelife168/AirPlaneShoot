@@ -5,28 +5,28 @@
     "versionCode": 1
   },
   "bf680618-d330-460a-816c-5fe62be91b22": {
-    "url": "db://assets/Sound/achievement.mp3",
+    "url": "db://assets/Audio/achievement.mp3",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "2328cef0-3e35-4049-a60c-2313beff0bb2": {
-    "url": "db://assets/Sound/big_spaceship_flying.mp3",
+    "url": "db://assets/Audio/big_spaceship_flying.mp3",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "a4d7b6d8-817a-4a27-8c1e-a1ea155c4e5f": {
-    "url": "db://assets/Sound/bullet.mp3",
+    "url": "db://assets/Audio/bullet.mp3",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "36820b0b-f166-4808-80fd-626d9fd0d520": {
-    "url": "db://assets/Sound/button.mp3",
+    "url": "db://assets/Audio/button.mp3",
     "value": {
       "depends": []
     },
@@ -38,63 +38,63 @@
     "versionCode": 1
   },
   "0d46601b-573f-48b4-a653-67f8f26f8cac": {
-    "url": "db://assets/Sound/enemy1_down.mp3",
+    "url": "db://assets/Audio/enemy1_down.mp3",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "e5ef6801-68ea-421c-bf65-f66e674f56ae": {
-    "url": "db://assets/Sound/enemy2_down.mp3",
+    "url": "db://assets/Audio/enemy2_down.mp3",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "23eaae3e-552f-4642-8dca-331052c7830a": {
-    "url": "db://assets/Sound/enemy3_down.mp3",
+    "url": "db://assets/Audio/enemy3_down.mp3",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "815b51d6-7dd7-4ef8-a4a4-e3f424d42c76": {
-    "url": "db://assets/Sound/game_music.mp3",
+    "url": "db://assets/Audio/game_music.mp3",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "f9476f3e-9a04-43df-8409-148db3ec6cbf": {
-    "url": "db://assets/Sound/game_over.mp3",
+    "url": "db://assets/Audio/game_over.mp3",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "91596de5-0b7e-476f-91cf-bec3dd8d9c00": {
-    "url": "db://assets/Sound/get_bomb.mp3",
+    "url": "db://assets/Audio/get_bomb.mp3",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "fbdaddf3-df69-4a78-80d8-6b13fedae146": {
-    "url": "db://assets/Sound/get_double_laser.mp3",
+    "url": "db://assets/Audio/get_double_laser.mp3",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "474462cf-e2d7-4f54-96c4-3a2376bdb774": {
-    "url": "db://assets/Sound/out_porp.mp3",
+    "url": "db://assets/Audio/out_porp.mp3",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "0ff0ddc5-7ef8-4bea-b962-6a84aa3c5d5d": {
-    "url": "db://assets/Sound/use_bomb.mp3",
+    "url": "db://assets/Audio/use_bomb.mp3",
     "value": {
       "depends": []
     },
@@ -1431,12 +1431,86 @@
     "versionCode": 1
   },
   "0a506f0f-3369-4b87-b4b5-44f3ccc4829c": {
-    "url": "db://assets/01-Start.scene",
+    "url": "db://assets/Scenes/01-Start.scene",
     "value": {
       "depends": [
-        "0a506f0f-3369-4b87-b4b5-44f3ccc4829c"
+        "0a506f0f-3369-4b87-b4b5-44f3ccc4829c",
+        "9b295b9e-b4f0-45ce-840a-f58ccc0337cc@f9941",
+        "8fafc987-15fa-4856-9967-b8c52b7fcffb@f9941",
+        "d0fccadb-20bd-4472-b1b6-feb5c671d576@f9941",
+        "dd4824b5-86c3-4050-a493-ef2a8582163d",
+        "2f6debb7-4bc0-4347-919c-71b87476bee7",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "2a6cfc38-7108-4839-88f6-2167cd39ab25"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2b7596ac-acda-470a-bf3d-f4373835173b": {
+    "url": "db://assets/Audio",
+    "value": {},
+    "versionCode": 1
+  },
+  "dd4824b5-86c3-4050-a493-ef2a8582163d": {
+    "url": "db://assets/Animations/animation.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "3dbd1d00-b63e-4817-83d2-0ea538c1dc91": {
+    "url": "db://assets/Animations",
+    "value": {},
+    "versionCode": 1
+  },
+  "2f6debb7-4bc0-4347-919c-71b87476bee7": {
+    "url": "db://assets/Animations/Loading.anim",
+    "value": {
+      "depends": [
+        "d0fccadb-20bd-4472-b1b6-feb5c671d576@f9941",
+        "f2216b3b-eee9-406e-9063-bf4d61b21e8f@f9941",
+        "f05972ec-0f69-4c89-a390-06f61dc70cbc@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1373c5eb-53df-4187-a56e-9c6fbcdd3b40": {
+    "url": "db://assets/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2a6cfc38-7108-4839-88f6-2167cd39ab25": {
+    "url": "db://assets/Scripts/StartUI.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1704884b-2ded-4d8f-8800-f4571fec4b07": {
+    "url": "db://assets/Scenes/02-GameScene.scene",
+    "value": {
+      "depends": [
+        "1704884b-2ded-4d8f-8800-f4571fec4b07",
+        "9b295b9e-b4f0-45ce-840a-f58ccc0337cc@f9941"
+      ],
+      "dependScripts": [
+        "5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819": {
+    "url": "db://assets/Scripts/Background.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c4afcb4d-7d17-41b0-9fab-4b8f8384f6f1": {
+    "url": "db://assets/Animations/Player_Idle.anim",
+    "value": {
+      "depends": [
+        "afe758a5-3265-4805-93d9-7480521b8f8d@f9941",
+        "1ce6f292-e571-4723-983c-cb3895651c76@f9941"
+      ]
     },
     "versionCode": 1
   }

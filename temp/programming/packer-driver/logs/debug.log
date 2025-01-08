@@ -1,30 +1,27 @@
-14:26:48 debug: 2025/1/7 下午2:26:48
-14:26:48 debug: Project: /Users/neil/Documents/Neil/AirPlaneShootGame
-14:26:48 debug: Targets: editor,preview
-14:26:48 debug: Packer deriver version file lost or format incorrect: Error: ENOENT: no such file or directory, open '/Users/neil/Documents/Neil/AirPlaneShootGame/temp/programming/packer-driver/VERSION'
-14:26:48 debug: Clearing out the targets...
-14:26:48 debug: Engine path: /Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine
-14:26:48 debug: Initializing target [Editor]
-14:26:48 debug: Loading cache
-14:26:48 debug: Record file loaded failed with error: Error: ENOENT: no such file or directory, open '/Users/neil/Documents/Neil/AirPlaneShootGame/temp/programming/packer-driver/targets/editor/main-record.json'
-14:26:48 debug: Loading cache costs 0.11841702461242676ms.
-14:26:48 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,gfx-webgpu,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,custom-pipeline-builtin-scripts,custom-pipeline-post-process,legacy-pipeline,websocket,websocket-server,meshopt
-14:26:48 debug: Our import map(foo:/bar): {
+10:01:10 debug: 2025/1/8 上午10:01:10
+10:01:10 debug: Project: /Users/neil/Documents/Neil/AirPlaneShootGame
+10:01:10 debug: Targets: editor,preview
+10:01:10 debug: Incremental file seems great.
+10:01:10 debug: Engine path: /Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine
+10:01:10 debug: Initializing target [Editor]
+10:01:10 debug: Loading cache
+10:01:10 debug: Loading cache costs 0.9427089998498559ms.
+10:01:10 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,gfx-webgpu,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,custom-pipeline-builtin-scripts,custom-pipeline-post-process,legacy-pipeline,websocket,websocket-server,meshopt
+10:01:10 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-14:26:48 debug: Initializing target [Preview]
-14:26:48 debug: Loading cache
-14:26:48 debug: Record file loaded failed with error: Error: ENOENT: no such file or directory, open '/Users/neil/Documents/Neil/AirPlaneShootGame/temp/programming/packer-driver/targets/preview/main-record.json'
-14:26:48 debug: Loading cache costs 0.14375001192092896ms.
-14:26:48 debug: Our import map(foo:/bar): {
+10:01:10 debug: Initializing target [Preview]
+10:01:10 debug: Loading cache
+10:01:10 debug: Loading cache costs 0.703207999933511ms.
+10:01:10 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-14:26:48 debug: Sync engine features: 2d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
-14:26:48 debug: Reset databases. Enumerated domains: [
+10:01:10 debug: Sync engine features: 2d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
+10:01:10 debug: Reset databases. Enumerated domains: [
   {
     "root": "db://internal/",
     "physical": "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets"
@@ -34,158 +31,856 @@
     "physical": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets"
   }
 ]
-14:26:48 debug: Our import map(foo:/bar): {
+10:01:10 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/"
   }
 }
-14:26:48 debug: Our import map(foo:/bar): {
+10:01:10 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/"
   }
 }
-14:26:48 debug: Pulling asset-db.
-14:26:48 debug: Fetch asset-db cost: 1.8222910165786743ms.
-14:26:48 debug: Build iteration starts.
-Number of accumulated asset changes: 4
+10:01:10 debug: Pulling asset-db.
+10:01:10 debug: Fetch asset-db cost: 3.337125000078231ms.
+10:01:10 debug: Build iteration starts.
+Number of accumulated asset changes: 6
 Feature changed: false
-14:26:48 debug: Target(editor) build started.
-14:26:48 debug: Inspect cce:/internal/x/cc
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/gfx-webgpu from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgpu.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline-post-process from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline-post-process.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
-14:26:48 debug: Inspect cce:/internal/x/prerequisite-imports
-14:26:48 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-14:26:48 debug: Inspect file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts
-14:26:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
-14:26:48 debug: Inspect cce:/internal/code-quality/cr.mjs
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
-14:26:48 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-14:26:48 debug: Inspect file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-14:26:48 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-14:26:48 debug: Inspect file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts
-14:26:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-14:26:48 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-14:26:48 debug: Inspect file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-14:26:48 debug: Target(editor) ends with cost 322.2476249933243ms.
-14:26:48 debug: Target(preview) build started.
-14:26:48 debug: Inspect cce:/internal/x/cc
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-14:26:48 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-14:26:48 debug: Inspect cce:/internal/x/prerequisite-imports
-14:26:48 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-14:26:48 debug: Inspect file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts
-14:26:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
-14:26:48 debug: Inspect cce:/internal/code-quality/cr.mjs
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
-14:26:48 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-14:26:48 debug: Inspect file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-14:26:48 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-14:26:48 debug: Inspect file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts
-14:26:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-14:26:48 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-14:26:48 debug: Inspect file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-14:26:48 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-14:26:48 debug: Target(preview) ends with cost 214.08791702985764ms.
-14:26:50 debug: Pulling asset-db.
-14:26:50 debug: Fetch asset-db cost: 236.74262499809265ms.
-14:26:50 debug: Build iteration starts.
-Number of accumulated asset changes: 4
+10:01:10 debug: Target(editor) build started.
+10:01:10 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間)
+10:01:10 debug: Inspect cce:/internal/x/cc
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/gfx-webgpu from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgpu.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline-post-process from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline-post-process.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+10:01:10 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 00:28:33 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間)
+10:01:10 debug: Inspect cce:/internal/x/prerequisite-imports
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:01:10 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+10:01:10 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Jan 07 2025 16:59:08 GMT+0800 (台北標準時間), Current mtime: Wed Jan 08 2025 10:01:06 GMT+0800 (台北標準時間)
+10:01:10 debug: Inspect cce:/internal/code-quality/cr.mjs
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+10:01:10 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:01:10 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts as cce:/internal/x/cc.
+10:01:10 debug: Target(editor) ends with cost 53.57416700012982ms.
+10:01:10 debug: Target(preview) build started.
+10:01:10 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間)
+10:01:10 debug: Inspect cce:/internal/x/cc
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+10:01:10 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+10:01:10 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 00:28:33 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間)
+10:01:10 debug: Inspect cce:/internal/x/prerequisite-imports
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:01:10 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+10:01:10 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Jan 07 2025 16:59:08 GMT+0800 (台北標準時間), Current mtime: Wed Jan 08 2025 10:01:06 GMT+0800 (台北標準時間)
+10:01:10 debug: Inspect cce:/internal/code-quality/cr.mjs
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+10:01:10 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:01:10 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts as cce:/internal/x/cc.
+10:01:10 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts as cce:/internal/x/cc.
+10:01:10 debug: Target(preview) ends with cost 42.43962499988265ms.
+10:01:10 debug: Pulling asset-db.
+10:01:10 debug: Fetch asset-db cost: 249.43912500003353ms.
+10:01:10 debug: Build iteration starts.
+Number of accumulated asset changes: 6
 Feature changed: false
-14:26:50 debug: Target(editor) build started.
-14:26:50 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (台北標準時間)
-14:26:50 debug: Inspect cce:/internal/x/prerequisite-imports
-14:26:50 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-14:26:50 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-14:26:50 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-14:26:50 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-14:26:50 debug: Target(editor) ends with cost 10.302749991416931ms.
-14:26:50 debug: Target(preview) build started.
-14:26:50 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (台北標準時間)
-14:26:50 debug: Inspect cce:/internal/x/prerequisite-imports
-14:26:50 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-14:26:50 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-14:26:50 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-14:26:50 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-14:26:50 debug: Target(preview) ends with cost 10.696208953857422ms.
+10:01:10 debug: Target(editor) build started.
+10:01:10 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間)
+10:01:10 debug: Inspect cce:/internal/x/prerequisite-imports
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:01:10 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:01:10 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:01:10 debug: Target(editor) ends with cost 13.452124999836087ms.
+10:01:10 debug: Target(preview) build started.
+10:01:10 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間)
+10:01:10 debug: Inspect cce:/internal/x/prerequisite-imports
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:01:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:01:10 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:01:10 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:01:10 debug: Target(preview) ends with cost 13.052416000049561ms.
+10:16:20 debug: Dispatch build request for time accumulated 1 asset changes.
+10:16:20 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:16:20 debug: Target(editor) build started.
+10:16:20 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:15:14 GMT+0800 (台北標準時間)
+10:16:20 debug: Inspect cce:/internal/x/prerequisite-imports
+10:16:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:16:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:16:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:16:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:16:20 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:16:20 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 09:27:12 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:16:17 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:16:20 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:16:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:16:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:16:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:16:20 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:16:20 debug: Target(editor) ends with cost 57.744375000242144ms.
+10:16:20 debug: Target(preview) build started.
+10:16:20 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:15:14 GMT+0800 (台北標準時間)
+10:16:20 debug: Inspect cce:/internal/x/prerequisite-imports
+10:16:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:16:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:16:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:16:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:16:20 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:16:20 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 09:27:12 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:16:17 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:16:20 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:16:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:16:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:16:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:16:20 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:16:20 debug: Target(preview) ends with cost 37.1861669998616ms.
+10:30:59 debug: Dispatch build request for time accumulated 1 asset changes.
+10:30:59 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:30:59 debug: Target(editor) build started.
+10:30:59 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:15:14 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:29:53 GMT+0800 (台北標準時間)
+10:30:59 debug: Inspect cce:/internal/x/prerequisite-imports
+10:30:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:30:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:30:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:30:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:30:59 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:30:59 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:16:17 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:30:58 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:30:59 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:30:59 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:30:59 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:30:59 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:30:59 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:30:59 debug: Target(editor) ends with cost 36.69512500008568ms.
+10:30:59 debug: Target(preview) build started.
+10:30:59 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:15:14 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:29:53 GMT+0800 (台北標準時間)
+10:30:59 debug: Inspect cce:/internal/x/prerequisite-imports
+10:30:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:30:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:30:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:30:59 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:30:59 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:30:59 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:16:17 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:30:58 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:30:59 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:30:59 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:30:59 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:30:59 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:30:59 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:30:59 debug: Target(preview) ends with cost 34.350917000323534ms.
+10:31:36 debug: Dispatch build request for time accumulated 1 asset changes.
+10:31:36 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:31:36 debug: Target(editor) build started.
+10:31:36 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:29:53 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:30:30 GMT+0800 (台北標準時間)
+10:31:36 debug: Inspect cce:/internal/x/prerequisite-imports
+10:31:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:31:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:31:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:31:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:31:36 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:31:36 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:30:58 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:31:33 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:31:36 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:31:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:31:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:31:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:31:36 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:31:36 debug: Target(editor) ends with cost 35.23933399980888ms.
+10:31:36 debug: Target(preview) build started.
+10:31:36 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:29:53 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:30:30 GMT+0800 (台北標準時間)
+10:31:36 debug: Inspect cce:/internal/x/prerequisite-imports
+10:31:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:31:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:31:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:31:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:31:36 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:31:36 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:30:58 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:31:33 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:31:36 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:31:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:31:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:31:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:31:36 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:31:36 debug: Target(preview) ends with cost 36.15316600026563ms.
+10:33:31 debug: Dispatch build request for time accumulated 1 asset changes.
+10:33:31 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:33:31 debug: Target(editor) build started.
+10:33:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:30:30 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:32:25 GMT+0800 (台北標準時間)
+10:33:31 debug: Inspect cce:/internal/x/prerequisite-imports
+10:33:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:33:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:33:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:33:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:33:31 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:33:31 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:31:33 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:31:42 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:33:31 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:33:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:33:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:33:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:33:31 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:33:31 debug: Target(editor) ends with cost 27.885166000109166ms.
+10:33:31 debug: Target(preview) build started.
+10:33:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:30:30 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:32:25 GMT+0800 (台北標準時間)
+10:33:31 debug: Inspect cce:/internal/x/prerequisite-imports
+10:33:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:33:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:33:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:33:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:33:31 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:33:31 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:31:33 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:31:42 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:33:31 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:33:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:33:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:33:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:33:31 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:33:31 debug: Target(preview) ends with cost 37.30058400006965ms.
+10:41:31 debug: Dispatch build request for time accumulated 1 asset changes.
+10:41:31 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:41:31 debug: Target(editor) build started.
+10:41:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:32:25 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:40:25 GMT+0800 (台北標準時間)
+10:41:31 debug: Inspect cce:/internal/x/prerequisite-imports
+10:41:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:41:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:41:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:41:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:41:31 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:41:31 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:31:42 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:41:29 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:41:31 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:41:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:41:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:41:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:41:31 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:41:31 debug: Target(editor) ends with cost 33.384624999947846ms.
+10:41:31 debug: Target(preview) build started.
+10:41:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:32:25 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:40:25 GMT+0800 (台北標準時間)
+10:41:31 debug: Inspect cce:/internal/x/prerequisite-imports
+10:41:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:41:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:41:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:41:31 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:41:31 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:41:31 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:31:42 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:41:29 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:41:31 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:41:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:41:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:41:31 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:41:31 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:41:31 debug: Target(preview) ends with cost 30.02741700038314ms.
+10:52:05 debug: Dispatch build request for time accumulated 1 asset changes.
+10:52:05 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:52:05 debug: Target(editor) build started.
+10:52:05 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:40:25 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:50:59 GMT+0800 (台北標準時間)
+10:52:05 debug: Inspect cce:/internal/x/prerequisite-imports
+10:52:05 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:52:05 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:52:05 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:52:05 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:52:05 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:52:05 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:41:29 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:51:58 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:52:05 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:52:05 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:52:05 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:52:05 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:52:05 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:52:05 debug: Target(editor) ends with cost 34.15733399987221ms.
+10:52:05 debug: Target(preview) build started.
+10:52:05 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:40:25 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:50:59 GMT+0800 (台北標準時間)
+10:52:05 debug: Inspect cce:/internal/x/prerequisite-imports
+10:52:05 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:52:05 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:52:05 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:52:05 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:52:05 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:52:05 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:41:29 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:51:58 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:52:05 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:52:05 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:52:05 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:52:05 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:52:05 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:52:05 debug: Target(preview) ends with cost 33.02591700013727ms.
+10:53:40 debug: Dispatch build request for time accumulated 1 asset changes.
+10:53:40 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:53:40 debug: Target(editor) build started.
+10:53:40 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:59 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:52:34 GMT+0800 (台北標準時間)
+10:53:40 debug: Inspect cce:/internal/x/prerequisite-imports
+10:53:40 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:53:40 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:53:40 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:53:40 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:53:40 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:53:40 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:51:58 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:53:40 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:53:40 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:53:40 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:53:40 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:53:40 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:53:40 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:53:40 debug: Target(editor) ends with cost 22.957084000110626ms.
+10:53:40 debug: Target(preview) build started.
+10:53:40 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:59 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:52:34 GMT+0800 (台北標準時間)
+10:53:40 debug: Inspect cce:/internal/x/prerequisite-imports
+10:53:40 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:53:40 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:53:40 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:53:40 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:53:40 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:53:40 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:51:58 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:53:40 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:53:40 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:53:40 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:53:40 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:53:40 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:53:40 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:53:40 debug: Target(preview) ends with cost 27.82333300076425ms.
+10:55:06 debug: Dispatch build request for time accumulated 1 asset changes.
+10:55:06 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:55:06 debug: Target(editor) build started.
+10:55:06 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:52:34 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:54:00 GMT+0800 (台北標準時間)
+10:55:06 debug: Inspect cce:/internal/x/prerequisite-imports
+10:55:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:55:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:55:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:55:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:55:06 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:55:06 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:53:40 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:55:03 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:55:06 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:55:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:55:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:55:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:55:06 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:55:06 debug: Target(editor) ends with cost 29.52820899989456ms.
+10:55:06 debug: Target(preview) build started.
+10:55:06 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:52:34 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:54:00 GMT+0800 (台北標準時間)
+10:55:06 debug: Inspect cce:/internal/x/prerequisite-imports
+10:55:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:55:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:55:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:55:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:55:06 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:55:06 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:53:40 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:55:03 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:55:06 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:55:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:55:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:55:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:55:06 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:55:06 debug: Target(preview) ends with cost 29.631042000837624ms.
+10:56:14 debug: Dispatch build request for time accumulated 1 asset changes.
+10:56:14 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:56:14 debug: Target(editor) build started.
+10:56:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:54:00 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:55:07 GMT+0800 (台北標準時間)
+10:56:14 debug: Inspect cce:/internal/x/prerequisite-imports
+10:56:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:56:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:56:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:56:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:56:14 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:56:14 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:55:03 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:56:13 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:56:14 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:56:14 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:56:14 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:56:14 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:56:14 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:56:14 debug: Target(editor) ends with cost 33.72454199939966ms.
+10:56:14 debug: Target(preview) build started.
+10:56:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:54:00 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 08:55:07 GMT+0800 (台北標準時間)
+10:56:14 debug: Inspect cce:/internal/x/prerequisite-imports
+10:56:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+10:56:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+10:56:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+10:56:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:56:14 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+10:56:14 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:55:03 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 10:56:13 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+10:56:14 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+10:56:14 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:56:14 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:56:14 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+10:56:14 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+10:56:14 debug: Target(preview) ends with cost 42.84820799995214ms.
+11:10:49 debug: Dispatch build request for time accumulated 1 asset changes.
+11:10:49 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+11:10:49 debug: Target(editor) build started.
+11:10:49 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:55:07 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 09:09:43 GMT+0800 (台北標準時間)
+11:10:49 debug: Inspect cce:/internal/x/prerequisite-imports
+11:10:49 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:10:49 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:10:49 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+11:10:49 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:10:49 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+11:10:49 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:56:13 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 11:10:49 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+11:10:49 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+11:10:49 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+11:10:49 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+11:10:49 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+11:10:49 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+11:10:49 debug: Target(editor) ends with cost 32.90820800047368ms.
+11:10:49 debug: Target(preview) build started.
+11:10:49 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:55:07 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 09:09:43 GMT+0800 (台北標準時間)
+11:10:49 debug: Inspect cce:/internal/x/prerequisite-imports
+11:10:49 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:10:49 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:10:49 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+11:10:49 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:10:49 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+11:10:49 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 10:56:13 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 11:10:49 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+11:10:49 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+11:10:49 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+11:10:49 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+11:10:49 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+11:10:49 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+11:10:49 debug: Target(preview) ends with cost 28.70991599932313ms.
+12:23:25 debug: Dispatch build request for time accumulated 1 asset changes.
+12:23:25 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+12:23:25 debug: Target(editor) build started.
+12:23:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:09:43 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 10:22:19 GMT+0800 (台北標準時間)
+12:23:25 debug: Inspect cce:/internal/x/prerequisite-imports
+12:23:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+12:23:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+12:23:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+12:23:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:23:25 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+12:23:25 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 11:10:49 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 12:23:20 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+12:23:25 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+12:23:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:23:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:23:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:23:25 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+12:23:25 debug: Target(editor) ends with cost 28.258167000487447ms.
+12:23:25 debug: Target(preview) build started.
+12:23:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:09:43 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 10:22:19 GMT+0800 (台北標準時間)
+12:23:25 debug: Inspect cce:/internal/x/prerequisite-imports
+12:23:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+12:23:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+12:23:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+12:23:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:23:25 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+12:23:25 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 11:10:49 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 12:23:20 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+12:23:25 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+12:23:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:23:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:23:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:23:25 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+12:23:25 debug: Target(preview) ends with cost 28.99358299933374ms.
+12:24:55 debug: Dispatch build request for time accumulated 1 asset changes.
+12:24:55 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+12:24:55 debug: Target(editor) build started.
+12:24:55 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:22:19 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 10:23:49 GMT+0800 (台北標準時間)
+12:24:55 debug: Inspect cce:/internal/x/prerequisite-imports
+12:24:55 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+12:24:55 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+12:24:55 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+12:24:55 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:24:55 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+12:24:55 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 12:23:20 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 12:24:53 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+12:24:55 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+12:24:55 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:24:55 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:24:55 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:24:55 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+12:24:55 debug: Target(editor) ends with cost 24.787041999399662ms.
+12:24:55 debug: Target(preview) build started.
+12:24:55 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:22:19 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 10:23:49 GMT+0800 (台北標準時間)
+12:24:55 debug: Inspect cce:/internal/x/prerequisite-imports
+12:24:55 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+12:24:55 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+12:24:55 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+12:24:55 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:24:55 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+12:24:55 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 12:23:20 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 12:24:53 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+12:24:55 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+12:24:55 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:24:55 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:24:55 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:24:55 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+12:24:55 debug: Target(preview) ends with cost 29.68966600112617ms.
+12:26:20 debug: Dispatch build request for time accumulated 1 asset changes.
+12:26:20 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+12:26:20 debug: Target(editor) build started.
+12:26:20 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:23:49 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 10:25:13 GMT+0800 (台北標準時間)
+12:26:20 debug: Inspect cce:/internal/x/prerequisite-imports
+12:26:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+12:26:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+12:26:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+12:26:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:26:20 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+12:26:20 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 12:24:53 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 12:26:19 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+12:26:20 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+12:26:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:26:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:26:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:26:20 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+12:26:20 debug: Target(editor) ends with cost 28.567500000819564ms.
+12:26:20 debug: Target(preview) build started.
+12:26:20 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:23:49 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 10:25:13 GMT+0800 (台北標準時間)
+12:26:20 debug: Inspect cce:/internal/x/prerequisite-imports
+12:26:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+12:26:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+12:26:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+12:26:20 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:26:20 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+12:26:20 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 12:24:53 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 12:26:19 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+12:26:20 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+12:26:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:26:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:26:20 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:26:20 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+12:26:20 debug: Target(preview) ends with cost 28.512999998405576ms.
+12:28:44 debug: Dispatch build request for time accumulated 1 asset changes.
+12:28:44 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+12:28:44 debug: Target(editor) build started.
+12:28:44 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:25:13 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 10:27:38 GMT+0800 (台北標準時間)
+12:28:44 debug: Inspect cce:/internal/x/prerequisite-imports
+12:28:44 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+12:28:44 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+12:28:44 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+12:28:44 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:28:44 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+12:28:44 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 12:26:19 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 12:28:42 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+12:28:44 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+12:28:44 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:28:44 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:28:44 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:28:44 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+12:28:44 debug: Target(editor) ends with cost 24.30324999988079ms.
+12:28:44 debug: Target(preview) build started.
+12:28:44 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:25:13 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 10:27:38 GMT+0800 (台北標準時間)
+12:28:44 debug: Inspect cce:/internal/x/prerequisite-imports
+12:28:44 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+12:28:44 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+12:28:44 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+12:28:44 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+12:28:44 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+12:28:44 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 12:26:19 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 12:28:42 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+12:28:44 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+12:28:44 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:28:44 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:28:44 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+12:28:44 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+12:28:44 debug: Target(preview) ends with cost 35.62545800022781ms.
+15:11:25 debug: Dispatch build request for time accumulated 1 asset changes.
+15:11:25 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:11:25 debug: Target(editor) build started.
+15:11:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:27:38 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:10:19 GMT+0800 (台北標準時間)
+15:11:25 debug: Inspect cce:/internal/x/prerequisite-imports
+15:11:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:11:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:11:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:11:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:11:25 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:11:25 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 12:28:42 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 12:29:59 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:11:25 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:11:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:11:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:11:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:11:25 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:11:25 debug: Target(editor) ends with cost 29.924999997019768ms.
+15:11:25 debug: Target(preview) build started.
+15:11:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:27:38 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:10:19 GMT+0800 (台北標準時間)
+15:11:25 debug: Inspect cce:/internal/x/prerequisite-imports
+15:11:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:11:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:11:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:11:25 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:11:25 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:11:25 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 12:28:42 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 12:29:59 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:11:25 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:11:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:11:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:11:25 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:11:25 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:11:25 debug: Target(preview) ends with cost 28.880249999463558ms.
+15:18:36 debug: Dispatch build request for time accumulated 1 asset changes.
+15:18:36 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:18:36 debug: Target(editor) build started.
+15:18:36 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:10:19 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:17:30 GMT+0800 (台北標準時間)
+15:18:36 debug: Inspect cce:/internal/x/prerequisite-imports
+15:18:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:18:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:18:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:18:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:18:36 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:18:36 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 12:29:59 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 15:18:33 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:18:36 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:18:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:18:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:18:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:18:36 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:18:36 debug: Target(editor) ends with cost 27.250624999403954ms.
+15:18:36 debug: Target(preview) build started.
+15:18:36 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:10:19 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:17:30 GMT+0800 (台北標準時間)
+15:18:36 debug: Inspect cce:/internal/x/prerequisite-imports
+15:18:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:18:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:18:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:18:36 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:18:36 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:18:36 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 12:29:59 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 15:18:33 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:18:36 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:18:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:18:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:18:36 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:18:36 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:18:36 debug: Target(preview) ends with cost 27.581291999667883ms.
+15:22:41 debug: Dispatch build request for time accumulated 1 asset changes.
+15:22:41 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:22:41 debug: Target(editor) build started.
+15:22:41 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:17:30 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:21:35 GMT+0800 (台北標準時間)
+15:22:41 debug: Inspect cce:/internal/x/prerequisite-imports
+15:22:41 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:22:41 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:22:41 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:22:41 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:22:41 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:22:41 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 15:18:33 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 15:22:34 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:22:41 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:22:41 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:22:41 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:22:41 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:22:41 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:22:41 debug: Target(editor) ends with cost 24.918666999787092ms.
+15:22:41 debug: Target(preview) build started.
+15:22:41 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:17:30 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:21:35 GMT+0800 (台北標準時間)
+15:22:41 debug: Inspect cce:/internal/x/prerequisite-imports
+15:22:41 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:22:41 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:22:41 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:22:41 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:22:41 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:22:41 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 15:18:33 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 15:22:34 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:22:41 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:22:41 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:22:41 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:22:41 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:22:41 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:22:41 debug: Target(preview) ends with cost 27.416292000561953ms.
+15:23:06 debug: Dispatch build request for time accumulated 1 asset changes.
+15:23:06 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:23:06 debug: Target(editor) build started.
+15:23:06 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:21:35 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:22:00 GMT+0800 (台北標準時間)
+15:23:06 debug: Inspect cce:/internal/x/prerequisite-imports
+15:23:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:23:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:23:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:23:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:23:06 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:23:06 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 15:22:34 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 15:23:05 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:23:06 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:23:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:23:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:23:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:23:06 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:23:06 debug: Target(editor) ends with cost 27.319584000855684ms.
+15:23:06 debug: Target(preview) build started.
+15:23:06 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:21:35 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:22:00 GMT+0800 (台北標準時間)
+15:23:06 debug: Inspect cce:/internal/x/prerequisite-imports
+15:23:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:23:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:23:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:23:06 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:23:06 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:23:06 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 15:22:34 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 15:23:05 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:23:06 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:23:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:23:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:23:06 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:23:06 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:23:06 debug: Target(preview) ends with cost 29.939667001366615ms.
+15:29:03 debug: Dispatch build request for time accumulated 1 asset changes.
+15:29:03 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:29:03 debug: Target(editor) build started.
+15:29:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:22:00 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:27:57 GMT+0800 (台北標準時間)
+15:29:03 debug: Inspect cce:/internal/x/prerequisite-imports
+15:29:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:29:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:29:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:29:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:29:03 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:29:03 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 15:23:05 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 15:29:00 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:29:03 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:29:03 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:03 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:03 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:03 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:29:03 debug: Target(editor) ends with cost 24.626459002494812ms.
+15:29:03 debug: Target(preview) build started.
+15:29:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:22:00 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:27:57 GMT+0800 (台北標準時間)
+15:29:03 debug: Inspect cce:/internal/x/prerequisite-imports
+15:29:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:29:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:29:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:29:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:29:03 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:29:03 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 15:23:05 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 15:29:00 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:29:03 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:29:03 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:03 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:03 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:03 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:29:03 debug: Target(preview) ends with cost 38.803625002503395ms.
+15:29:57 debug: Dispatch build request for time accumulated 1 asset changes.
+15:29:57 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:29:57 debug: Target(editor) build started.
+15:29:57 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:27:57 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:28:50 GMT+0800 (台北標準時間)
+15:29:57 debug: Inspect cce:/internal/x/prerequisite-imports
+15:29:57 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:29:57 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:29:57 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:29:57 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:29:57 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:29:57 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 15:29:00 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 15:29:56 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:29:57 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:29:57 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:57 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:57 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:57 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:29:57 debug: Target(editor) ends with cost 27.962707996368408ms.
+15:29:57 debug: Target(preview) build started.
+15:29:57 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:27:57 GMT+0800 (台北標準時間), Current mtime: Thu Jan 01 1970 13:28:50 GMT+0800 (台北標準時間)
+15:29:57 debug: Inspect cce:/internal/x/prerequisite-imports
+15:29:57 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:29:57 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:29:57 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:29:57 debug: Resolve file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:29:57 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts.
+15:29:57 debug: Detected change: file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts. Last mtime: Wed Jan 08 2025 15:29:00 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819, Current mtime: Wed Jan 08 2025 15:29:56 GMT+0800 (台北標準時間)@5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819
+15:29:57 debug: Inspect file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts
+15:29:57 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:57 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:57 debug: Resolve cc from file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts as cce:/internal/x/cc.
+15:29:57 debug: Resolve file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.
+15:29:57 debug: Target(preview) ends with cost 27.61600000038743ms.
