@@ -340,6 +340,30 @@
       "imports": {},
       "timestamp": 1736301670377
     },
+    "4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1736321397099
+    },
+    "28aaff2eb34ef42b6bc13a3413da137bd43128e6": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1736395751649
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -380,14 +404,28 @@
         "__unresolved_5": {
           "resolved": {
             "type": "chunk",
+            "id": "140818aaf5c9737235ef72a30b23cffa49b33b48"
+          },
+          "messages": []
+        },
+        "__unresolved_6": {
+          "resolved": {
+            "type": "chunk",
+            "id": "28aaff2eb34ef42b6bc13a3413da137bd43128e6"
+          },
+          "messages": []
+        },
+        "__unresolved_7": {
+          "resolved": {
+            "type": "chunk",
             "id": "499aac45091eb17472394b25b10d98c99630323a"
           },
           "messages": []
         }
       },
-      "timestamp": 1736321397082
+      "timestamp": 1736396774226
     },
-    "4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32": {
+    "140818aaf5c9737235ef72a30b23cffa49b33b48": {
       "imports": {
         "cc": {
           "resolved": {
@@ -397,7 +435,7 @@
           "messages": []
         }
       },
-      "timestamp": 1736321397099
+      "timestamp": 1736396774236
     }
   },
   "entries": {
@@ -408,6 +446,8 @@
     "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "4109426b88add842c9c43cc2e1bc4e30668de93e",
     "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "ea97adb72e4faec12843537599f72aa79dec8434",
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts": "4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32",
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts": "140818aaf5c9737235ef72a30b23cffa49b33b48",
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts": "28aaff2eb34ef42b6bc13a3413da137bd43128e6",
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts": "499aac45091eb17472394b25b10d98c99630323a"
   }
 }

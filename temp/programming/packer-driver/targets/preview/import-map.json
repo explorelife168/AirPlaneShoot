@@ -7,6 +7,8 @@
     "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "./chunks/41/4109426b88add842c9c43cc2e1bc4e30668de93e.js",
     "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/ea/ea97adb72e4faec12843537599f72aa79dec8434.js",
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts": "./chunks/4b/4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32.js",
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts": "./chunks/14/140818aaf5c9737235ef72a30b23cffa49b33b48.js",
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts": "./chunks/28/28aaff2eb34ef42b6bc13a3413da137bd43128e6.js",
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts": "./chunks/49/499aac45091eb17472394b25b10d98c99630323a.js"
   },
   "scopes": {
@@ -38,9 +40,17 @@
       "__unresolved_2": "./chunks/41/4109426b88add842c9c43cc2e1bc4e30668de93e.js",
       "__unresolved_3": "./chunks/ea/ea97adb72e4faec12843537599f72aa79dec8434.js",
       "__unresolved_4": "./chunks/4b/4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32.js",
-      "__unresolved_5": "./chunks/49/499aac45091eb17472394b25b10d98c99630323a.js"
+      "__unresolved_5": "./chunks/14/140818aaf5c9737235ef72a30b23cffa49b33b48.js",
+      "__unresolved_6": "./chunks/28/28aaff2eb34ef42b6bc13a3413da137bd43128e6.js",
+      "__unresolved_7": "./chunks/49/499aac45091eb17472394b25b10d98c99630323a.js"
     },
     "./chunks/49/499aac45091eb17472394b25b10d98c99630323a.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/28/28aaff2eb34ef42b6bc13a3413da137bd43128e6.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/14/140818aaf5c9737235ef72a30b23cffa49b33b48.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/4b/4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32.js": {

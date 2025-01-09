@@ -430,7 +430,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 19730864.414582998,
+      "mTimestamp": 95108064.443917,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -504,7 +504,7 @@
           }
         },
         {
-          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts",
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
@@ -513,6 +513,34 @@
             },
             "end": {
               "line": 9,
+              "column": 85
+            }
+          }
+        },
+        {
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 7
+            },
+            "end": {
+              "line": 10,
+              "column": 85
+            }
+          }
+        },
+        {
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 7
+            },
+            "end": {
+              "line": 11,
               "column": 86
             }
           }
@@ -552,6 +580,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts"
           },
           "messages": []
         },
@@ -993,6 +1035,110 @@
         "uuid": "5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819"
       },
       "chunkId": "4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts": {
+      "mTimestamp": {
+        "mtime": 1736395746739.0938,
+        "uuid": "ee35bd1e-1959-4f2a-b750-a3608047e425"
+      },
+      "chunkId": "28aaff2eb34ef42b6bc13a3413da137bd43128e6",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 7
+            },
+            "end": {
+              "line": 10,
+              "column": 11
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts": {
+      "mTimestamp": {
+        "mtime": 1736396774206.0984,
+        "uuid": "f75c9179-4856-40ed-a53a-19d0934218e0"
+      },
+      "chunkId": "140818aaf5c9737235ef72a30b23cffa49b33b48",
       "imports": [
         {
           "value": "cc"

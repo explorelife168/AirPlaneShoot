@@ -488,7 +488,7 @@
       "time": 1736237022497.1946
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations": {
-      "time": 1736327791557.0022,
+      "time": 1736396790426.1147,
       "uuid": "3dbd1d00-b63e-4817-83d2-0ea538c1dc91"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Loading.anim.meta": {
@@ -502,7 +502,7 @@
       "time": 1736239631646.7014
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts": {
-      "time": 1736241369346.601,
+      "time": 1736396774206.5896,
       "uuid": "1373c5eb-53df-4187-a56e-9c6fbcdd3b40"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.meta": {
@@ -516,7 +516,7 @@
       "time": 1736240384550.8298
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scenes/02-GameScene.scene": {
-      "time": 1736320961943.2075,
+      "time": 1736396021335.7925,
       "uuid": "1704884b-2ded-4d8f-8800-f4571fec4b07"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scenes/01-Start.scene.meta": {
@@ -539,6 +539,20 @@
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Player_Idle.anim": {
       "time": 1736328422204.5989,
       "uuid": "c4afcb4d-7d17-41b0-9fab-4b8f8384f6f1"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts.meta": {
+      "time": 1736387851428.968
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts": {
+      "time": 1736395746739.0938,
+      "uuid": "ee35bd1e-1959-4f2a-b750-a3608047e425"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts.meta": {
+      "time": 1736396774207.403
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts": {
+      "time": 1736396774206.0984,
+      "uuid": "f75c9179-4856-40ed-a53a-19d0934218e0"
     }
   },
   "missing": {
@@ -906,6 +920,11 @@
       "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bg.ts",
       "time": 1736241358441.5454,
       "removeTime": 1736241369347
+    },
+    "cde6fe9f-195d-421f-856e-3e1287c9b3bf": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/PlayerII.Idle.anim",
+      "time": 1736329266005.1436,
+      "removeTime": 1736386758939
     }
   }
 }

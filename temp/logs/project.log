@@ -2371,3 +2371,29 @@
 2025-1-8 17:27:52 - log: [PreviewInEditor] Using custom pipeline: Builtin
 2025-1-8 17:27:52 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
 2025-1-8 17:28:19 - info: [PreviewInEditor] preview process is ready
+2025-1-8 18:06:21 - error: [Assets] _updateAdaptResult Invalid size.Error: [Assets] _updateAdaptResult Invalid size.
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1409)
+    at ccAssert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154661:21)
+    at assert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154565:12)
+    at View._updateAdaptResult (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:83832:13)
+    at ScreenAdapter.emit (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:137408:28)
+    at MediaQueryList.eval (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:261886:24)
+    at MediaQueryList.sentryWrapped (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/src/helpers.ts:100:17)
+2025-1-8 19:32:30 - error: [Assets] _updateAdaptResult Invalid size.Error: [Assets] _updateAdaptResult Invalid size.
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1409)
+    at ccAssert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154661:21)
+    at assert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154565:12)
+    at View._updateAdaptResult (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:83832:13)
+    at ScreenAdapter.emit (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:137408:28)
+    at MediaQueryList.eval (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:261886:24)
+    at MediaQueryList.sentryWrapped (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/src/helpers.ts:100:17)
+2025-1-9 10:47:01 - log: [PreviewInEditor] meshopt wasm decoder initialized
+2025-1-9 10:47:01 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+2025-1-9 10:47:01 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+2025-1-9 10:47:01 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+2025-1-9 10:47:02 - log: [PreviewInEditor] Cocos Creator v3.8.4
+2025-1-9 10:47:02 - log: [PreviewInEditor] Using custom pipeline: Builtin
+2025-1-9 10:47:02 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2025-1-9 11:14:35 - info: [PreviewInEditor] preview process is ready
