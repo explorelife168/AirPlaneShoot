@@ -59,7 +59,7 @@ export class Player extends Component {
       p.y + event.getDeltaY(),
       p.z
     );
-
+    //
     if (p.x > this.screenSize.width / 2) {
       this.node.setPosition(this.screenSize.width / 2 - 2, p.y, p.z);
     } else if (p.x < -this.screenSize.width / 2) {
