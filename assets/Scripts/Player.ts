@@ -1,4 +1,3 @@
-import { Bullet } from "./Bullet";
 import {
   _decorator,
   Component,
@@ -13,14 +12,18 @@ import {
 } from "cc";
 const { ccclass, property } = _decorator;
 
-enum ShootType {
+export enum ShootType {
   OneShoot,
   TwoShoot,
 }
 @ccclass("Player")
 export class Player extends Component {
-  @property
-  shotRate: number = 0.5;
+  @property({ type: ShootType })
+  shootType: ShootType = ShootType.OneShoot;
+
+  get shotRate(): number {
+    return this.shootType === ShootType.OneShoot ? 0.4 : 0.2;
+  }
 
   shootTimer: number = 0;
 
@@ -40,9 +43,6 @@ export class Player extends Component {
   position03: Node = null;
 
   screenSize: Size = new Size();
-
-  @property({ type: ShootType })
-  shootType: ShootType = ShootType.OneShoot;
 
   protected onLoad(): void {
     input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);

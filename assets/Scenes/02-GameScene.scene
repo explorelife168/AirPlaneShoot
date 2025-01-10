@@ -931,7 +931,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "shotRate": 0.5,
+    "shootType": 0,
     "bulletParent": {
       "__id__": 26
     },
@@ -939,12 +939,19 @@
       "__uuid__": "fb276eb3-a655-4cbf-ac34-000632f9eca4",
       "__expectedType__": "cc.Prefab"
     },
-    "bullet02Prefab": null,
-    "bullet01Position": {
+    "position01": {
       "__id__": 19
     },
-    "bullet02Position": null,
-    "bullet03Position": null,
+    "bullet02Prefab": {
+      "__uuid__": "3c74b4fd-88ba-4a94-8126-c5af7c5afb74",
+      "__expectedType__": "cc.Prefab"
+    },
+    "position02": {
+      "__id__": 21
+    },
+    "position03": {
+      "__id__": 23
+    },
     "_id": "5b7ChE+mFMUZlg7PwWHo84"
   },
   {
