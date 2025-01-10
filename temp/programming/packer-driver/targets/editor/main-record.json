@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4150.0338330001105,
+      "mTimestamp": 3931.299915999174,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -703,7 +703,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 95108042.446333,
+      "mTimestamp": 77752390.32287501,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -984,7 +984,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1736301666193,
+      "mTimestamp": 1736412789051,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1356,7 +1356,7 @@
     },
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1736395746739.0938,
+        "mtime": 1736490522219.2454,
         "uuid": "ee35bd1e-1959-4f2a-b750-a3608047e425"
       },
       "chunkId": "28aaff2eb34ef42b6bc13a3413da137bd43128e6",
@@ -1371,11 +1371,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 10,
+              "line": 13,
               "column": 7
             },
             "end": {
-              "line": 10,
+              "line": 13,
               "column": 11
             }
           }
@@ -1408,7 +1408,7 @@
     },
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts": {
       "mTimestamp": {
-        "mtime": 1736396774206.0984,
+        "mtime": 1736402937921.3313,
         "uuid": "f75c9179-4856-40ed-a53a-19d0934218e0"
       },
       "chunkId": "140818aaf5c9737235ef72a30b23cffa49b33b48",

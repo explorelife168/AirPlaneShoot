@@ -1493,7 +1493,8 @@
         "1704884b-2ded-4d8f-8800-f4571fec4b07",
         "9b295b9e-b4f0-45ce-840a-f58ccc0337cc@f9941",
         "afe758a5-3265-4805-93d9-7480521b8f8d@f9941",
-        "c4afcb4d-7d17-41b0-9fab-4b8f8384f6f1"
+        "c4afcb4d-7d17-41b0-9fab-4b8f8384f6f1",
+        "fb276eb3-a655-4cbf-ac34-000632f9eca4"
       ],
       "dependScripts": [
         "5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819",
@@ -1530,6 +1531,35 @@
   "f75c9179-4856-40ed-a53a-19d0934218e0": {
     "url": "db://assets/Scripts/Bullet.ts",
     "value": {},
+    "versionCode": 1
+  },
+  "58e32730-63d2-484c-8808-e2d9eedf432b": {
+    "url": "db://assets/Prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "fb276eb3-a655-4cbf-ac34-000632f9eca4": {
+    "url": "db://assets/Prefabs/Bullet01.prefab",
+    "value": {
+      "depends": [
+        "e6fa50d0-71e7-4c58-8bb7-602224eee359@f9941"
+      ],
+      "dependScripts": [
+        "f75c9179-4856-40ed-a53a-19d0934218e0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3c74b4fd-88ba-4a94-8126-c5af7c5afb74": {
+    "url": "db://assets/Prefabs/Bullet02.prefab",
+    "value": {
+      "depends": [
+        "f7cf07c4-2d5b-4b59-997a-225159b30889@f9941"
+      ],
+      "dependScripts": [
+        "f75c9179-4856-40ed-a53a-19d0934218e0"
+      ]
+    },
     "versionCode": 1
   }
 }
