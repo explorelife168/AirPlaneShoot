@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4352.463041007519,
+      "mTimestamp": 4287.253125011921,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -703,7 +703,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3209920.2779159844,
+      "mTimestamp": 1997736.7969169617,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -791,7 +791,7 @@
           }
         },
         {
-          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts",
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Enemy.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -800,21 +800,35 @@
             },
             "end": {
               "line": 5,
-              "column": 997
+              "column": 996
+            }
+          }
+        },
+        {
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1012
+            },
+            "end": {
+              "line": 5,
+              "column": 1090
             }
           }
         },
         {
           "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts",
-          "resolved": "__unresolved_7",
+          "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1013
+              "column": 1106
             },
             "end": {
               "line": 5,
-              "column": 1092
+              "column": 1185
             }
           }
         }
@@ -860,6 +874,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Enemy.ts"
           },
           "messages": []
         },
@@ -984,7 +1005,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1736491789845,
+      "mTimestamp": 1736733214174,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1408,7 +1429,7 @@
     },
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts": {
       "mTimestamp": {
-        "mtime": 1736494998899.985,
+        "mtime": 1736734314607.174,
         "uuid": "f75c9179-4856-40ed-a53a-19d0934218e0"
       },
       "chunkId": "140818aaf5c9737235ef72a30b23cffa49b33b48",
@@ -1485,6 +1506,58 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Enemy.ts": {
+      "mTimestamp": {
+        "mtime": 1736735198928.458,
+        "uuid": "7b4fa264-bdc5-4980-9c35-237369237440"
+      },
+      "chunkId": "fdc7ed4efc2a323d7c6618e6cbc0009627114183",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
           },
           "messages": []
         }

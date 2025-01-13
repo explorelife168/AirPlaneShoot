@@ -23,7 +23,6 @@ export class Bullet extends Component {
     if (p.y > this.screenSize.height) {
       console.log(p.y);
       this.node.destroy();
-      console.log("destroy");
     }
   }
 }

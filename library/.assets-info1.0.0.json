@@ -502,7 +502,7 @@
       "time": 1736239631646.7014
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts": {
-      "time": 1736396774206.5896,
+      "time": 1736734588697.601,
       "uuid": "1373c5eb-53df-4187-a56e-9c6fbcdd3b40"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.meta": {
@@ -516,7 +516,7 @@
       "time": 1736240384550.8298
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scenes/02-GameScene.scene": {
-      "time": 1736491831088.7832,
+      "time": 1736735285723.8406,
       "uuid": "1704884b-2ded-4d8f-8800-f4571fec4b07"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scenes/01-Start.scene.meta": {
@@ -551,14 +551,14 @@
       "time": 1736396774207.403
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts": {
-      "time": 1736494998899.985,
+      "time": 1736734314607.174,
       "uuid": "f75c9179-4856-40ed-a53a-19d0934218e0"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs.meta": {
       "time": 1736404304843.3567
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs": {
-      "time": 1736481182271.7935,
+      "time": 1736735283113.5537,
       "uuid": "58e32730-63d2-484c-8808-e2d9eedf432b"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Bullet01.prefab.meta": {
@@ -574,6 +574,20 @@
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Bullet02.prefab": {
       "time": 1736490775868.1401,
       "uuid": "3c74b4fd-88ba-4a94-8126-c5af7c5afb74"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Enemy.ts.meta": {
+      "time": 1736734588698.9358
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Enemy.ts": {
+      "time": 1736735198928.458,
+      "uuid": "7b4fa264-bdc5-4980-9c35-237369237440"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Ememy0.prefab.meta": {
+      "time": 1736735283115.5461
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Ememy0.prefab": {
+      "time": 1736735283114.518,
+      "uuid": "50d8e8ea-ef4d-42f7-abb0-2537b06c4e87"
     }
   },
   "missing": {
