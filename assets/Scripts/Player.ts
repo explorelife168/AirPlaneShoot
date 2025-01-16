@@ -9,6 +9,10 @@ import {
   Size,
   Prefab,
   instantiate,
+  CCFloat,
+  Collider2D,
+  Contact2DType,
+  IPhysics2DContact,
 } from "cc";
 const { ccclass, property } = _decorator;
 
@@ -18,7 +22,7 @@ export enum ShootType {
 }
 @ccclass("Player")
 export class Player extends Component {
-  @property({ type: ShootType })
+  @property({ type: CCFloat })
   shootType: ShootType = ShootType.OneShoot;
 
   get shotRate(): number {
@@ -47,10 +51,21 @@ export class Player extends Component {
   protected onLoad(): void {
     input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
     this.screenSize = view.getVisibleSize();
+
+    // 碰撞生成
+    let collider = this.getComponent(Collider2D);
+    if (collider) {
+      collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+    }
   }
 
   protected destroyed(): void {
     input.off(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
+
+    let collider = this.getComponent(Collider2D);
+    if (collider) {
+      collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+    }
   }
   onTouchMove(event: EventTouch) {
     const p = this.node.position;
@@ -72,6 +87,12 @@ export class Player extends Component {
       this.node.setPosition(p.x, -this.screenSize.height / 2 + 60, p.z);
     }
   }
+
+  onBeginContact(
+    selfCollider: Collider2D,
+    otherCollider: Collider2D,
+    contact: IPhysics2DContact | null
+  ) {}
 
   oneShoot(dt: number) {
     this.shootTimer += dt;

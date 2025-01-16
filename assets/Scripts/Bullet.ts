@@ -1,10 +1,10 @@
-import { _decorator, Component, Node, view, Size } from "cc";
+import { _decorator, Component, Node, view, Size, CCFloat } from "cc";
 import { ShootType } from "./Player";
 const { ccclass, property } = _decorator;
 
 @ccclass("Bullet")
 export class Bullet extends Component {
-  @property({ type: ShootType })
+  @property({ type: CCFloat })
   shootType: ShootType = ShootType.OneShoot;
   get speed(): number {
     return this.shootType === ShootType.OneShoot ? 600 : 900;
@@ -21,7 +21,6 @@ export class Bullet extends Component {
     const p = this.node.position;
     this.node.setPosition(p.x, p.y + this.speed * deltaTime, p.z);
     if (p.y > this.screenSize.height) {
-      console.log(p.y);
       this.node.destroy();
     }
   }

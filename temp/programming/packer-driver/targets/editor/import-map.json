@@ -9,6 +9,7 @@
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts": "./chunks/4b/4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32.js",
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts": "./chunks/14/140818aaf5c9737235ef72a30b23cffa49b33b48.js",
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Enemy.ts": "./chunks/fd/fdc7ed4efc2a323d7c6618e6cbc0009627114183.js",
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/EnemyManager.ts": "./chunks/38/386a2e77b9895ff795df2b27b06f62352f054515.js",
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts": "./chunks/28/28aaff2eb34ef42b6bc13a3413da137bd43128e6.js",
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts": "./chunks/49/499aac45091eb17472394b25b10d98c99630323a.js"
   },
@@ -56,13 +57,17 @@
       "__unresolved_4": "./chunks/4b/4b0ac1bf4aeb2ebf7671f4b7770a106dc9186b32.js",
       "__unresolved_5": "./chunks/14/140818aaf5c9737235ef72a30b23cffa49b33b48.js",
       "__unresolved_6": "./chunks/fd/fdc7ed4efc2a323d7c6618e6cbc0009627114183.js",
-      "__unresolved_7": "./chunks/28/28aaff2eb34ef42b6bc13a3413da137bd43128e6.js",
-      "__unresolved_8": "./chunks/49/499aac45091eb17472394b25b10d98c99630323a.js"
+      "__unresolved_7": "./chunks/38/386a2e77b9895ff795df2b27b06f62352f054515.js",
+      "__unresolved_8": "./chunks/28/28aaff2eb34ef42b6bc13a3413da137bd43128e6.js",
+      "__unresolved_9": "./chunks/49/499aac45091eb17472394b25b10d98c99630323a.js"
     },
     "./chunks/49/499aac45091eb17472394b25b10d98c99630323a.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/28/28aaff2eb34ef42b6bc13a3413da137bd43128e6.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/38/386a2e77b9895ff795df2b27b06f62352f054515.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/fd/fdc7ed4efc2a323d7c6618e6cbc0009627114183.js": {

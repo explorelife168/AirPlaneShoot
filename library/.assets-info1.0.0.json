@@ -488,7 +488,7 @@
       "time": 1736237022497.1946
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations": {
-      "time": 1736396790426.1147,
+      "time": 1737018672965.9014,
       "uuid": "3dbd1d00-b63e-4817-83d2-0ea538c1dc91"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Loading.anim.meta": {
@@ -502,7 +502,7 @@
       "time": 1736239631646.7014
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts": {
-      "time": 1736734588697.601,
+      "time": 1736754130715.4973,
       "uuid": "1373c5eb-53df-4187-a56e-9c6fbcdd3b40"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts.meta": {
@@ -516,7 +516,7 @@
       "time": 1736240384550.8298
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scenes/02-GameScene.scene": {
-      "time": 1736735285723.8406,
+      "time": 1737017838799.147,
       "uuid": "1704884b-2ded-4d8f-8800-f4571fec4b07"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scenes/01-Start.scene.meta": {
@@ -544,50 +544,120 @@
       "time": 1736387851428.968
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts": {
-      "time": 1736494803276.2988,
+      "time": 1737018409823.1736,
       "uuid": "ee35bd1e-1959-4f2a-b750-a3608047e425"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts.meta": {
       "time": 1736396774207.403
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts": {
-      "time": 1736734314607.174,
+      "time": 1736934008250.6445,
       "uuid": "f75c9179-4856-40ed-a53a-19d0934218e0"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs.meta": {
       "time": 1736404304843.3567
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs": {
-      "time": 1736735283113.5537,
+      "time": 1736824628490.4888,
       "uuid": "58e32730-63d2-484c-8808-e2d9eedf432b"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Bullet01.prefab.meta": {
       "time": 1736404316374.9731
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Bullet01.prefab": {
-      "time": 1736404316374.1855,
+      "time": 1737015964524.5288,
       "uuid": "fb276eb3-a655-4cbf-ac34-000632f9eca4"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Bullet02.prefab.meta": {
       "time": 1736481182273.717
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Bullet02.prefab": {
-      "time": 1736490775868.1401,
+      "time": 1737015957333.2605,
       "uuid": "3c74b4fd-88ba-4a94-8126-c5af7c5afb74"
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Enemy.ts.meta": {
       "time": 1736734588698.9358
     },
     "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Enemy.ts": {
-      "time": 1736735198928.458,
+      "time": 1737016098975.568,
       "uuid": "7b4fa264-bdc5-4980-9c35-237369237440"
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Ememy0.prefab.meta": {
-      "time": 1736735283115.5461
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Enemy0_Down.anim.meta": {
+      "time": 1736753651785.5732
     },
-    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Ememy0.prefab": {
-      "time": 1736735283114.518,
-      "uuid": "50d8e8ea-ef4d-42f7-abb0-2537b06c4e87"
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Enemy1_Down.anim.meta": {
+      "time": 1736753651786.6753
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Enemy2_Down.anim.meta": {
+      "time": 1736753651786.1704
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Enemy2_Hit.anim.meta": {
+      "time": 1736753651787.033
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Enemy0_Down.anim": {
+      "time": 1736837757926.869,
+      "uuid": "df62d88e-7f16-43be-a702-2fcc40d4fed0"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Enemy2_Down.anim": {
+      "time": 1736824470515.4878,
+      "uuid": "a1f5f8f3-5124-4a29-a0a2-599baf9c9b05"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Enemy1_Down.anim": {
+      "time": 1736823744017.4795,
+      "uuid": "0db558bb-3fa3-4d08-8a05-80938d851c8d"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Enemy2_Hit.anim": {
+      "time": 1736752297999.9497,
+      "uuid": "ac3d01bc-ff85-40c5-a9d0-821c5465eefd"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Enemy1_Hit.anim.meta": {
+      "time": 1736753748971.9395
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Enemy1_Hit.anim": {
+      "time": 1736753850466.5544,
+      "uuid": "346838f9-8f7b-482b-9f6f-1356fa5323fa"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/EnemyManager.ts.meta": {
+      "time": 1736754130716.5242
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/EnemyManager.ts": {
+      "time": 1737012240307.7874,
+      "uuid": "cdffdbcd-19e1-4854-88de-e03633ed1fb6"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Enemy0.prefab.meta": {
+      "time": 1736824624584.4316
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Enemy0.prefab": {
+      "time": 1737015987544.3386,
+      "uuid": "5a9e98df-4b81-4bb6-a5f5-84cc38fe7174"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Enemy1.prefab.meta": {
+      "time": 1736824626865.899
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Enemy1.prefab": {
+      "time": 1737015978121.896,
+      "uuid": "807005fb-f32a-4061-9f8a-f6e152bfa05d"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Enemy2.prefab.meta": {
+      "time": 1736824628492.7976
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Enemy2.prefab": {
+      "time": 1737016001903.5598,
+      "uuid": "ae37db86-197c-448d-bdac-e67c1957af70"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Player_Down.anim.meta": {
+      "time": 1737017235942.0784
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Player_Down.anim": {
+      "time": 1737017306173.3945,
+      "uuid": "b469dca2-d6f8-41e7-a6a9-298ff79362a3"
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Player_Hit.anim.meta": {
+      "time": 1737018672966.9304
+    },
+    "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Player_Hit.anim": {
+      "time": 1737021419319.369,
+      "uuid": "9944ce91-b485-4af3-b4a7-9d29ae1424d0"
     }
   },
   "missing": {
@@ -960,6 +1030,46 @@
       "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/PlayerII.Idle.anim",
       "time": 1736329266005.1436,
       "removeTime": 1736386758939
+    },
+    "df62d88e-7f16-43be-a702-2fcc40d4fed0": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Ememy0_Down.anim",
+      "time": 1736751858599.1934,
+      "removeTime": 1736753651779
+    },
+    "0db558bb-3fa3-4d08-8a05-80938d851c8d": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Ememy1_Down.anim",
+      "time": 1736740265180.5122,
+      "removeTime": 1736753651779
+    },
+    "a1f5f8f3-5124-4a29-a0a2-599baf9c9b05": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Ememy2_Down.anim",
+      "time": 1736753449085.9287,
+      "removeTime": 1736753651779
+    },
+    "ac3d01bc-ff85-40c5-a9d0-821c5465eefd": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Animations/Ememy2_Hit.anim",
+      "time": 1736752297999.9497,
+      "removeTime": 1736753651779
+    },
+    "50d8e8ea-ef4d-42f7-abb0-2537b06c4e87": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Ememy0.prefab",
+      "time": 1736753335643.962,
+      "removeTime": 1736821439123
+    },
+    "f4ab96dc-f3cc-4409-9ac9-7773c3719a5b": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Ememy1.prefab",
+      "time": 1736821411710.1272,
+      "removeTime": 1736821439124
+    },
+    "98522264-96fb-4328-81df-461f643fcc54": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Prefabs/Ememy2.prefab",
+      "time": 1736747919755.3657,
+      "removeTime": 1736821439124
+    },
+    "110f95cc-7caa-401b-a91d-dc800e1a2e20": {
+      "path": "/Users/neil/Documents/Neil/AirPlaneShootGame/assets/Ememy01_Hit.anim",
+      "time": 1736752213707.573,
+      "removeTime": 1736822262526
     }
   }
 }

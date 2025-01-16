@@ -23,7 +23,9 @@
       "0",
       "0_0",
       "0_0_0",
+      "0_0_1",
       "0_0_1_0",
+      "0_0_2",
       "0_0_2_1",
       "0_0_2_3",
       "0_0_3",
@@ -61,6 +63,76 @@
   },
   "091d655b-f123-4c6f-a616-4525c2146e94": {
     "assetUuid": "091d655b-f123-4c6f-a616-4525c2146e94",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "5318036b-c994-45e2-9828-8af01c82d10d": {
+    "assetUuid": "5318036b-c994-45e2-9828-8af01c82d10d",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "fbb68cc6-dad0-413a-8079-6960c5017902": {
+    "assetUuid": "fbb68cc6-dad0-413a-8079-6960c5017902",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "a8aecda2-4eb3-4fc8-8667-92cb6a2109bf": {
+    "assetUuid": "a8aecda2-4eb3-4fc8-8667-92cb6a2109bf",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "637cee1f-bd20-458f-91d3-3e9e7c658385": {
+    "assetUuid": "637cee1f-bd20-458f-91d3-3e9e7c658385",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "85c98515-61bd-42cd-8415-d24bef7a8897": {
+    "assetUuid": "85c98515-61bd-42cd-8415-d24bef7a8897",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "a3038efb-5b7e-4a32-a3f6-75c95240fe77": {
+    "assetUuid": "a3038efb-5b7e-4a32-a3f6-75c95240fe77",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "9bb9778e-ba50-4b23-976a-ce55390c8a4e": {
+    "assetUuid": "9bb9778e-ba50-4b23-976a-ce55390c8a4e",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "417a5be1-9fea-4283-93d0-e7321c6dd0e0": {
+    "assetUuid": "417a5be1-9fea-4283-93d0-e7321c6dd0e0",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "8d6a954d-2658-4caf-91ac-1a9972fee701": {
+    "assetUuid": "8d6a954d-2658-4caf-91ac-1a9972fee701",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "70e4126c-674a-4f8e-bac7-9e0c95ca2005": {
+    "assetUuid": "70e4126c-674a-4f8e-bac7-9e0c95ca2005",
     "animationUuid": "",
     "expandLevels": [
       "0"
