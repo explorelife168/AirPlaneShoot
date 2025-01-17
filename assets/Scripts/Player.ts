@@ -13,12 +13,15 @@ import {
   Collider2D,
   Contact2DType,
   IPhysics2DContact,
+  Animation,
+  CCString,
 } from "cc";
 const { ccclass, property } = _decorator;
 
 export enum ShootType {
   OneShoot,
   TwoShoot,
+  None,
 }
 @ccclass("Player")
 export class Player extends Component {
@@ -30,6 +33,22 @@ export class Player extends Component {
   }
 
   shootTimer: number = 0;
+
+  // 玩家血量
+  @property
+  lifeCount: number = 3;
+  @property(Animation)
+  anim: Animation = null;
+  @property(CCString)
+  animHit: string = "";
+  @property(CCString)
+  animDown: string = "";
+
+  //玩家碰撞 處理
+  @property
+  invincibleTime: number = 1;
+  isInvincible: boolean = false;
+  invincibleTimer: number = 0;
 
   @property(Node)
   bulletParent: Node = null;
@@ -62,12 +81,42 @@ export class Player extends Component {
   protected destroyed(): void {
     input.off(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
 
+    // 玩家碰撞飛機
     let collider = this.getComponent(Collider2D);
     if (collider) {
       collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
     }
   }
+
+  // 碰撞效果處理
+  onBeginContact(
+    selfCollider: Collider2D,
+    otherCollider: Collider2D,
+    contact: IPhysics2DContact | null
+  ) {
+    if (!this.isInvincible) {
+      this.isInvincible = true;
+    } else return;
+
+    let collider = this.getComponent(Collider2D);
+    console.log("onBeginContact");
+    this.lifeCount -= 1;
+    if (this.lifeCount > 0) {
+      this.anim.play(this.animHit);
+    } else {
+      this.anim.play(this.animDown);
+    }
+
+    if (this.lifeCount <= 0) {
+      this.shootType = ShootType.None;
+      if (collider) {
+        collider.enabled = false;
+      }
+    }
+  }
+
   onTouchMove(event: EventTouch) {
+    if (this.lifeCount < 1) return;
     const p = this.node.position;
     this.node.setPosition(
       p.x + event.getDeltaX(),
@@ -87,12 +136,6 @@ export class Player extends Component {
       this.node.setPosition(p.x, -this.screenSize.height / 2 + 60, p.z);
     }
   }
-
-  onBeginContact(
-    selfCollider: Collider2D,
-    otherCollider: Collider2D,
-    contact: IPhysics2DContact | null
-  ) {}
 
   oneShoot(dt: number) {
     this.shootTimer += dt;
@@ -124,6 +167,16 @@ export class Player extends Component {
       case ShootType.TwoShoot:
         this.twoShoot(dt);
         break;
+    }
+
+    if (this.isInvincible) {
+      this.invincibleTimer += dt;
+      console.log(this.invincibleTime);
+      if (this.invincibleTimer > this.invincibleTime) {
+        this.isInvincible = false;
+        this.invincibleTimer = 0;
+        console.log("this.invincibleTimer > this.invincibleTime");
+      }
     }
   }
 }

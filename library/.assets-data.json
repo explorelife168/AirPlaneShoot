@@ -1494,18 +1494,22 @@
         "9b295b9e-b4f0-45ce-840a-f58ccc0337cc@f9941",
         "afe758a5-3265-4805-93d9-7480521b8f8d@f9941",
         "c4afcb4d-7d17-41b0-9fab-4b8f8384f6f1",
+        "9944ce91-b485-4af3-b4a7-9d29ae1424d0",
         "b469dca2-d6f8-41e7-a6a9-298ff79362a3",
         "fb276eb3-a655-4cbf-ac34-000632f9eca4",
         "3c74b4fd-88ba-4a94-8126-c5af7c5afb74",
         "5a9e98df-4b81-4bb6-a5f5-84cc38fe7174",
         "807005fb-f32a-4061-9f8a-f6e152bfa05d",
-        "ae37db86-197c-448d-bdac-e67c1957af70"
+        "ae37db86-197c-448d-bdac-e67c1957af70",
+        "0f0696e6-8da3-48d0-beb6-e953567ba3ba@f9941",
+        "52956993-3167-4aab-a28e-aa2c5da3f018",
+        "a354524c-8213-4f18-909d-9e4cdbb73c5b@f9941"
       ],
       "dependScripts": [
         "5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819",
         "ee35bd1e-1959-4f2a-b750-a3608047e425",
         "cdffdbcd-19e1-4854-88de-e03633ed1fb6",
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+        "584a2310-585b-4726-9600-f27e7ecf74a5"
       ]
     },
     "versionCode": 1
@@ -1717,6 +1721,49 @@
     "value": {
       "depends": []
     },
+    "versionCode": 1
+  },
+  "584a2310-585b-4726-9600-f27e7ecf74a5": {
+    "url": "db://assets/Scripts/Reward.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "52956993-3167-4aab-a28e-aa2c5da3f018": {
+    "url": "db://assets/Animations/Reward.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4e651d4e-d536-4eb6-b47b-64179ff5ca79": {
+    "url": "db://assets/Prefabs/Reward1_TwoShoot.prefab",
+    "value": {
+      "depends": [
+        "0f0696e6-8da3-48d0-beb6-e953567ba3ba@f9941",
+        "52956993-3167-4aab-a28e-aa2c5da3f018"
+      ],
+      "dependScripts": [
+        "9913ffc3-ff78-4572-80d4-d162ef70ef15"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5dc2d342-193f-4bef-b533-441ab65a93b0": {
+    "url": "db://assets/Prefabs/Reward2_Bomb.prefab",
+    "value": {
+      "depends": [
+        "a354524c-8213-4f18-909d-9e4cdbb73c5b@f9941",
+        "52956993-3167-4aab-a28e-aa2c5da3f018"
+      ],
+      "dependScripts": [
+        "9913ffc3-ff78-4572-80d4-d162ef70ef15"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9913ffc3-ff78-4572-80d4-d162ef70ef15": {
+    "url": "db://assets/Scripts/Reward.ts",
+    "value": {},
     "versionCode": 1
   }
 }

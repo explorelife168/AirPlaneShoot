@@ -9,6 +9,7 @@ import {
   Node,
 } from "cc";
 const { ccclass, property } = _decorator;
+import { Bullet } from "./Bullet";
 
 @ccclass("Enemy")
 export class Enemy extends Component {
@@ -49,7 +50,9 @@ export class Enemy extends Component {
     otherCollider: Collider2D,
     contact: IPhysics2DContact | null
   ) {
-    // otherCollider.enabled = false;
+    if (otherCollider.getComponent(Bullet)) {
+      otherCollider.enabled = false;
+    }
     this.hp -= 1;
     let collider = this.getComponent(Collider2D);
     if (this.hp > 0) {
