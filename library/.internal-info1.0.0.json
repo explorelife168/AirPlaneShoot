@@ -1629,10 +1629,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/render-pipeline/ts-render-flow.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/render-pipeline/ts-render-stage.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/render-pipeline/ts-render-pipeline.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/render-pipeline/ts-render-pipeline.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/render-pipeline/ts-render-stage.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor.meta": {
@@ -1731,9 +1731,6 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/shading-standard-additive.chunk.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/typescript/ts.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/shading-standard-base.chunk.meta": {
       "time": 1728495317000
     },
@@ -1768,6 +1765,9 @@
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/post-process/pipeline.chunk.meta": {
+      "time": 1728495317000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/typescript/ts.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/common-functions.chunk.meta": {
@@ -2154,6 +2154,9 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/builtin-reflection-probe-preview.effect.meta": {
       "time": 1728495317000
     },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/builtin-terrain.effect.meta": {
+      "time": 1728495317000
+    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/builtin-unlit.effect.meta": {
       "time": 1728495317000
     },
@@ -2163,13 +2166,13 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/builtin-standard.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/builtin-terrain.effect.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/effect/default.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/effect/effect-surface.effect.meta": {
+      "time": 1728495317000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/car-paint.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/eye.effect.meta": {
@@ -2178,19 +2181,16 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/fabric.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/car-paint.effect.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/glass.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/hair.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/simple-skin.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/leaf.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/leaf.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/simple-skin.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/advanced/skin.effect.meta": {
@@ -2211,10 +2211,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/for2d/builtin-sprite.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-camera-texture.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-clear-stencil.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-clear-stencil.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-camera-texture.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-debug-renderer.effect.meta": {
@@ -2226,13 +2226,13 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-graphics.effect.meta": {
       "time": 1728495317000
     },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-reflection-deferred.effect.meta": {
+      "time": 1728495317000
+    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-occlusion-query.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-wireframe.effect.meta": {
-      "time": 1728495317000
-    },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/builtin-reflection-deferred.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/legacy/standard.effect.meta": {
@@ -2241,40 +2241,43 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/legacy/terrain.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-billboard.effect.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/legacy/toon.effect.meta": {
-      "time": 1728495317000
-    },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-particle-gpu.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-particle-trail.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-particle-xr-trail.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-billboard.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/cluster-build.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-particle-gpu.effect.meta": {
+      "time": 1728495317000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-particle-xr-trail.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/particles/builtin-particle.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/cluster-culling.effect.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/copy-pass.effect.meta": {
       "time": 1728495318000
     },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/cluster-culling.effect.meta": {
+      "time": 1728495317000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/cluster-build.effect.meta": {
+      "time": 1728495317000
+    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/deferred-lighting.effect.meta": {
+      "time": 1728495318000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/float-output-process.effect.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/planar-shadow.effect.meta": {
       "time": 1728495318000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/float-output-process.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/skybox.effect.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process.effect.meta": {
@@ -2283,19 +2286,16 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/smaa.effect.meta": {
       "time": 1728495318000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/skybox.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/ssss-blur.effect.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/tonemap.effect.meta": {
       "time": 1728495318000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/ssss-blur.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/util/profiler.effect.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/util/batched-unlit.effect.meta": {
-      "time": 1728495318000
-    },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/util/profiler.effect.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/util/sequence-anim.effect.meta": {
@@ -2307,40 +2307,37 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/box-height-light.effect.meta": {
       "time": 1728495317000
     },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/grid-2d.effect.meta": {
+      "time": 1728495317000
+    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/gizmo.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/grid-stroke.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/grid-2d.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/light-probe-visualization.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/grid.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/light-probe-visualization.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/light.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/terrain-circle-brush.effect.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/light.effect.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/terrain-image-brush.effect.meta": {
-      "time": 1728495317000
-    },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/terrain-select-brush.effect.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/blit-screen.effect.meta": {
       "time": 1728495318000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/bloom.effect.meta": {
-      "time": 1728495318000
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/internal/editor/terrain-select-brush.effect.meta": {
+      "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/color-grading1.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/bloom.effect.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/bloom1.effect.meta": {
@@ -2352,10 +2349,13 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/dof.effect.meta": {
       "time": 1728495318000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/dof1.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/color-grading1.effect.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/fsr.effect.meta": {
+      "time": 1728495318000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/dof1.effect.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/pipeline/post-process/fsr1.effect.meta": {
@@ -2385,28 +2385,28 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/util/dcc/imported-specular-glossiness.effect.meta": {
       "time": 1728495318000
     },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.meta": {
+      "time": 1728495317000
+    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/util/dcc/vat/houdini-fluid-v3-liquid.effect.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/util/dcc/vat/houdini-rigidbody-v2.effect.meta": {
       "time": 1728495318000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/util/dcc/vat/houdini-softbody-v3.effect.meta": {
-      "time": 1728495318000
-    },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.meta": {
       "time": 1728495317000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/util/dcc/vat/houdini-softbody-v3.effect.meta": {
+      "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/util/dcc/vat/zeno-fluid-liquid.effect.meta": {
       "time": 1728495318000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/effects/util/dcc/vat/zeno-fluid-liquid.effect.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/Default-Particle.png": {
@@ -3020,19 +3020,19 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/Default-Particle.png.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default-video.mp4.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default-terrain/default-layer-texture.jpg.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_cubemap/back.jpg.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_cubemap/front.jpg.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default-video.mp4.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_cubemap/bottom.jpg.meta": {
+      "time": 1728495317000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_cubemap/front.jpg.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_cubemap/left.jpg.meta": {
@@ -3041,10 +3041,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_cubemap/right.jpg.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/default-billboard-material.mtl.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/default-clear-stencil.mtl.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/default-clear-stencil.mtl.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/default-billboard-material.mtl.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/default-material-transparent.mtl.meta": {
@@ -3062,13 +3062,13 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/default-spine-material.mtl.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/default-trail-material.mtl.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/default-sprite-renderer-material.mtl.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_cubemap/top.jpg.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/default-sprite-renderer-material.mtl.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/default-trail-material.mtl.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/missing-effect-material.mtl.meta": {
@@ -3104,10 +3104,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_materials/ui-sprite-material.mtl.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-bloom.mtl.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/Camera.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/Camera.prefab.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-bloom.mtl.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-color-grading.mtl.meta": {
@@ -3119,10 +3119,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-depth-of-field.mtl.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-deferred.rpp.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-fsr.mtl.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-fsr.mtl.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-deferred.rpp.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-forward.rpp.meta": {
@@ -3137,10 +3137,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/deferred-lighting.mtl.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/tonemap.mtl.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/post-process.mtl.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/post-process.mtl.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/tonemap.mtl.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/atom.plist.meta": {
@@ -3176,10 +3176,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_progressbar_bg.png.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_radio_button_off.png.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_skybox/default_skybox.png.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_skybox/default_skybox.png.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_radio_button_off.png.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_ui/default_radio_button_on.png.meta": {
@@ -3224,10 +3224,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/scene-gizmo.mtl.meta": {
       "time": 1728495318000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/light-probe.png.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/sphere-light.png.meta": {
       "time": 1728495318000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/sphere-light.png.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/light-probe.png.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/reflection-probe.png.meta": {
@@ -3239,10 +3239,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_skybox/default_skybox.hdr.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/spot-light.png.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/webview.png.meta": {
       "time": 1728495318000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/webview.png.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/spot-light.png.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/physics/default-physics-material.pmtl.meta": {
@@ -3254,10 +3254,13 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/parsed-effect-info.json.meta": {
       "time": 1728495318000
     },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/y.png.meta": {
+      "time": 1728495318000
+    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/x.png.meta": {
       "time": 1728495318000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/y.png.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/z.png.meta": {
       "time": 1728495318000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/animation-clip/default.anim.meta": {
@@ -3266,8 +3269,11 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/animation-graph/default.animgraph.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/gizmo/z.png.meta": {
-      "time": 1728495318000
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/animation-mask/default.animask.meta": {
+      "time": 1728495317000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/animation-graph-variant/default.animgraphvari.meta": {
+      "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/auto-atlas/default.pac.meta": {
       "time": 1728495317000
@@ -3275,13 +3281,7 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/label-atlas/default.labelatlas.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/animation-mask/default.animask.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/material/default.mtl.meta": {
-      "time": 1728495317000
-    },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/animation-graph-variant/default.animgraphvari.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/physics-material/default.pmtl.meta": {
@@ -3299,19 +3299,19 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/scene/default.scene.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/render-texture/default.rt.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/scene/scene-2d.scene.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/scene/scene-2d.scene.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/render-texture/default.rt.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/scene/scene-quality.scene.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Bold.fnt.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/terrain/default.terrain.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_file_content/terrain/default.terrain.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Bold.fnt.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-BoldItalic.fnt.meta": {
@@ -3332,25 +3332,25 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-BoldItalic_0.png.meta": {
       "time": 1728495317000
     },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Italic_0.png.meta": {
+      "time": 1728495317000
+    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-freetype/OpenSans-BoldItalic.ttf.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Regular_0.png.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-bitmap/OpenSans-Italic_0.png.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/2d/Camera.prefab.meta": {
+      "time": 1728495317000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-freetype/OpenSans-Italic.ttf.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/3d/Capsule.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/2d/Camera.prefab.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/3d/Cone.prefab.meta": {
-      "time": 1728495317000
-    },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-freetype/OpenSans-Italic.ttf.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_fonts/builtin-freetype/OpenSans-Regular.ttf.meta": {
@@ -3359,10 +3359,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/3d/Cube.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/3d/Plane.prefab.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/3d/Cylinder.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/3d/Cylinder.prefab.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/3d/Plane.prefab.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/3d/Quad.prefab.meta": {
@@ -3392,10 +3392,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/light/Reflection Probe.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/light/Spot Light.prefab.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/light/Sphere Light.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/light/Sphere Light.prefab.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/light/Spot Light.prefab.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/Button.prefab.meta": {
@@ -3404,10 +3404,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/Canvas.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/Graphics.prefab.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/EditBox.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/EditBox.prefab.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/Graphics.prefab.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/Label.prefab.meta": {
@@ -3419,25 +3419,25 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/Mask.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/ProgressBar.prefab.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/ParticleSystem2D.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/ParticleSystem2D.prefab.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/ProgressBar.prefab.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/RichText.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/Slider.prefab.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/ScrollView.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/SpriteRenderer.prefab.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/Slider.prefab.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/Sprite.prefab.meta": {
+      "time": 1728495317000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/SpriteRenderer.prefab.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/SpriteSplash.prefab.meta": {
@@ -3449,13 +3449,13 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/Toggle.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/WebView.prefab.meta": {
-      "time": 1728495317000
-    },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/ToggleContainer.prefab.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/VideoPlayer.prefab.meta": {
+      "time": 1728495317000
+    },
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/WebView.prefab.meta": {
       "time": 1728495317000
     },
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/ui/Widget.prefab.meta": {
@@ -3467,10 +3467,10 @@
     "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_prefab/2d/ui/Canvas.prefab.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/dependencies/textures/lut/original-color-grading.png.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/dependencies/textures/preintegrated-skin.png.meta": {
       "time": 1728495317000
     },
-    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/dependencies/textures/preintegrated-skin.png.meta": {
+    "/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/dependencies/textures/lut/original-color-grading.png.meta": {
       "time": 1728495317000
     }
   },

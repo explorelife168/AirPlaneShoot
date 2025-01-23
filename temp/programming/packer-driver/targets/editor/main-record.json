@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4108.77416600287,
+      "mTimestamp": 4309.48641705513,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -703,7 +703,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 22586257.976208,
+      "mTimestamp": 27496752.7185421,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -763,7 +763,7 @@
           }
         },
         {
-          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts",
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/AudioMgr.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -772,91 +772,175 @@
             },
             "end": {
               "line": 5,
-              "column": 809
+              "column": 807
+            }
+          }
+        },
+        {
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 823
+            },
+            "end": {
+              "line": 5,
+              "column": 905
             }
           }
         },
         {
           "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts",
-          "resolved": "__unresolved_5",
+          "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 825
+              "column": 921
             },
             "end": {
               "line": 5,
-              "column": 903
+              "column": 999
             }
           }
         },
         {
           "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Enemy.ts",
-          "resolved": "__unresolved_6",
+          "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 919
+              "column": 1015
             },
             "end": {
               "line": 5,
-              "column": 996
+              "column": 1092
             }
           }
         },
         {
           "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/EnemyManager.ts",
-          "resolved": "__unresolved_7",
+          "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1012
+              "column": 1108
             },
             "end": {
               "line": 5,
-              "column": 1096
+              "column": 1192
+            }
+          }
+        },
+        {
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/GameManager.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1208
+            },
+            "end": {
+              "line": 5,
+              "column": 1291
             }
           }
         },
         {
           "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts",
-          "resolved": "__unresolved_8",
+          "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1112
+              "column": 1307
             },
             "end": {
               "line": 5,
-              "column": 1190
+              "column": 1385
             }
           }
         },
         {
           "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Reward.ts",
-          "resolved": "__unresolved_9",
+          "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1206
+              "column": 1401
             },
             "end": {
               "line": 5,
-              "column": 1284
+              "column": 1479
             }
           }
         },
         {
           "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts",
-          "resolved": "__unresolved_10",
+          "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1300
+              "column": 1495
             },
             "end": {
               "line": 5,
-              "column": 1379
+              "column": 1574
+            }
+          }
+        },
+        {
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/BombUI.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1590
+            },
+            "end": {
+              "line": 5,
+              "column": 1671
+            }
+          }
+        },
+        {
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/GameOverUI.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1687
+            },
+            "end": {
+              "line": 5,
+              "column": 1772
+            }
+          }
+        },
+        {
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/LifeCountUI.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1788
+            },
+            "end": {
+              "line": 5,
+              "column": 1874
+            }
+          }
+        },
+        {
+          "value": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/ScoreUI.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1890
+            },
+            "end": {
+              "line": 5,
+              "column": 1972
             }
           }
         }
@@ -894,6 +978,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/AudioMgr.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts"
           },
           "messages": []
@@ -922,6 +1013,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts"
           },
           "messages": []
@@ -937,6 +1035,34 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/BombUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/GameOverUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/LifeCountUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/ScoreUI.ts"
           },
           "messages": []
         }
@@ -1047,7 +1173,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1737081624398,
+      "mTimestamp": 1737598874973,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1261,110 +1387,6 @@
         }
       ]
     },
-    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts": {
-      "mTimestamp": {
-        "mtime": 1736240274398.0613,
-        "uuid": "2a6cfc38-7108-4839-88f6-2167cd39ab25"
-      },
-      "chunkId": "499aac45091eb17472394b25b10d98c99630323a",
-      "imports": [
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 54
-            },
-            "end": {
-              "line": 1,
-              "column": 58
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bg.ts": {
-      "mTimestamp": {
-        "mtime": 1736241358441.5454,
-        "uuid": "5e15f461-9bf7-4ea6-9e7f-24a5ebf8f819"
-      },
-      "chunkId": "7aeb747205ebc4deacbfa397cf1ceb5edff4ba51",
-      "imports": [
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 44
-            },
-            "end": {
-              "line": 1,
-              "column": 48
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Background.ts": {
       "mTimestamp": {
         "mtime": 1736321396486.6707,
@@ -1388,58 +1410,6 @@
             "end": {
               "line": 1,
               "column": 48
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts": {
-      "mTimestamp": {
-        "mtime": 1737096913453.2964,
-        "uuid": "ee35bd1e-1959-4f2a-b750-a3608047e425"
-      },
-      "chunkId": "28aaff2eb34ef42b6bc13a3413da137bd43128e6",
-      "imports": [
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 18,
-              "column": 7
-            },
-            "end": {
-              "line": 18,
-              "column": 11
             }
           }
         }
@@ -1553,9 +1523,522 @@
         }
       ]
     },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Player.ts": {
+      "mTimestamp": {
+        "mtime": 1737611106086.9536,
+        "uuid": "ee35bd1e-1959-4f2a-b750-a3608047e425"
+      },
+      "chunkId": "28aaff2eb34ef42b6bc13a3413da137bd43128e6",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./UI/LifeCountUI",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 28
+            },
+            "end": {
+              "line": 1,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 7
+            },
+            "end": {
+              "line": 21,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./Reward",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 35
+            },
+            "end": {
+              "line": 22,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./GameManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 28
+            },
+            "end": {
+              "line": 23,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/LifeCountUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Reward.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/LifeCountUI.ts": {
+      "mTimestamp": {
+        "mtime": 1737450547316.4001,
+        "uuid": "7793fc38-c089-416e-bf16-6c984d492eec"
+      },
+      "chunkId": "9adbd950f02537639f6a3129f91255ef6e4e0d58",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 60
+            },
+            "end": {
+              "line": 1,
+              "column": 64
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Reward.ts": {
+      "mTimestamp": {
+        "mtime": 1737367415759.792,
+        "uuid": "9913ffc3-ff78-4572-80d4-d162ef70ef15"
+      },
+      "chunkId": "f92bcfabb8adf63f3872016778e1e6e5695655d0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1737626369934.9548,
+        "uuid": "7f6e6b05-918f-4587-a846-f54b3c018e06"
+      },
+      "chunkId": "131bf495818697caa4f7c1c0cdab555268f0b532",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 71
+            },
+            "end": {
+              "line": 2,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "./UI/ScoreUI",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "./UI/BombUI",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 23
+            },
+            "end": {
+              "line": 4,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "./UI/GameOverUI",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 27
+            },
+            "end": {
+              "line": 5,
+              "column": 44
+            }
+          }
+        },
+        {
+          "value": "./AudioMgr",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 25
+            },
+            "end": {
+              "line": 6,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/ScoreUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/BombUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/GameOverUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/AudioMgr.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/ScoreUI.ts": {
+      "mTimestamp": {
+        "mtime": 1737513220715.963,
+        "uuid": "4c52a1de-c4d1-4467-a509-2e943d193154"
+      },
+      "chunkId": "9f8b3a40681081fccdc12d7f0348fe376ff1258a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 60
+            },
+            "end": {
+              "line": 1,
+              "column": 64
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/BombUI.ts": {
+      "mTimestamp": {
+        "mtime": 1737621561364.844,
+        "uuid": "a6715472-c4db-49a9-85ed-688d6fdf7caa"
+      },
+      "chunkId": "08ba47457a784a60485e758b059c1c9caf9f6a41",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 60
+            },
+            "end": {
+              "line": 1,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "../GameManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 44
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1737083983579.128,
+        "mtime": 1737622211490.9143,
         "uuid": "7b4fa264-bdc5-4980-9c35-237369237440"
       },
       "chunkId": "fdc7ed4efc2a323d7c6618e6cbc0009627114183",
@@ -1574,11 +2057,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 10,
+              "line": 12,
               "column": 7
             },
             "end": {
-              "line": 10,
+              "line": 12,
               "column": 11
             }
           }
@@ -1588,12 +2071,40 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 12,
+              "line": 14,
               "column": 23
             },
             "end": {
-              "line": 12,
+              "line": 14,
               "column": 33
+            }
+          }
+        },
+        {
+          "value": "./GameManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 28
+            },
+            "end": {
+              "line": 15,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./EnemyManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 29
+            },
+            "end": {
+              "line": 16,
+              "column": 45
             }
           }
         }
@@ -1634,17 +2145,35 @@
             "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Bullet.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/EnemyManager.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/EnemyManager.ts": {
       "mTimestamp": {
-        "mtime": 1737012240307.7874,
+        "mtime": 1737622095033.488,
         "uuid": "cdffdbcd-19e1-4854-88de-e03633ed1fb6"
       },
       "chunkId": "386a2e77b9895ff795df2b27b06f62352f054515",
       "imports": [
         {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
           "value": "cc"
         },
         {
@@ -1654,14 +2183,42 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 11,
+              "line": 12,
               "column": 7
             },
             "end": {
-              "line": 11,
+              "line": 12,
               "column": 11
             }
           }
+        },
+        {
+          "value": "./GameManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 28
+            },
+            "end": {
+              "line": 13,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./Enemy",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 22
+            },
+            "end": {
+              "line": 14,
+              "column": 31
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1669,7 +2226,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -1684,17 +2241,38 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Enemy.ts"
           },
           "messages": []
         }
       ]
     },
-    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/NewComponent.ts": {
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/StartUI.ts": {
       "mTimestamp": {
-        "mtime": 1737098423874.216,
-        "uuid": "584a2310-585b-4726-9600-f27e7ecf74a5"
+        "mtime": 1736240274398.0613,
+        "uuid": "2a6cfc38-7108-4839-88f6-2167cd39ab25"
       },
-      "chunkId": "5edc3345e665dc38e93d236c9179a8a321702638",
+      "chunkId": "499aac45091eb17472394b25b10d98c99630323a",
       "imports": [
         {
           "value": "cc"
@@ -1707,11 +2285,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 44
+              "column": 54
             },
             "end": {
               "line": 1,
-              "column": 48
+              "column": 58
             }
           }
         }
@@ -1741,12 +2319,12 @@
         }
       ]
     },
-    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/Reward.ts": {
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/UI/GameOverUI.ts": {
       "mTimestamp": {
-        "mtime": 1737104207845.059,
-        "uuid": "9913ffc3-ff78-4572-80d4-d162ef70ef15"
+        "mtime": 1737602810732.8125,
+        "uuid": "1bb5c074-7387-42b0-bccc-45af060a8fa3"
       },
-      "chunkId": "f92bcfabb8adf63f3872016778e1e6e5695655d0",
+      "chunkId": "83d32ca0bb64ad475833d1e097186fc3f2f7c489",
       "imports": [
         {
           "value": "cc"
@@ -1759,11 +2337,63 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 44
+              "column": 51
             },
             "end": {
               "line": 1,
-              "column": 48
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/neil/Documents/Neil/AirPlaneShootGame/assets/Scripts/AudioMgr.ts": {
+      "mTimestamp": {
+        "mtime": 1737626262443.7454,
+        "uuid": "bd3831b6-5612-463c-9d54-337194b826e8"
+      },
+      "chunkId": "941e39a4af53a8ad5236b89291c69bf787a913dc",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 66
+            },
+            "end": {
+              "line": 2,
+              "column": 70
             }
           }
         }

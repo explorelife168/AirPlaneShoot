@@ -1,3 +1,4 @@
+import { LifeCountUI } from "./UI/LifeCountUI";
 import {
   _decorator,
   Component,
@@ -15,13 +16,18 @@ import {
   IPhysics2DContact,
   Animation,
   CCString,
+  Sprite,
+  director,
 } from "cc";
+import { Reward, RewardType } from "./Reward";
+import { GameManager } from "./GameManager";
+
 const { ccclass, property } = _decorator;
 
 export enum ShootType {
+  None,
   OneShoot,
   TwoShoot,
-  None,
 }
 @ccclass("Player")
 export class Player extends Component {
@@ -36,13 +42,21 @@ export class Player extends Component {
 
   // 玩家血量
   @property
-  lifeCount: number = 3;
+  lifeCount: number = 4;
   @property(Animation)
   anim: Animation = null;
   @property(CCString)
   animHit: string = "";
   @property(CCString)
   animDown: string = "";
+
+  @property(LifeCountUI)
+  lifeCountUI: LifeCountUI = null;
+
+  // 雙發設定
+  @property
+  twoShootTime: number = 5;
+  twoShootTimer: number = 0;
 
   //玩家碰撞 處理
   @property
@@ -64,6 +78,8 @@ export class Player extends Component {
   position02: Node = null;
   @property(Node)
   position03: Node = null;
+
+  // private isControl: boolean = true;
 
   screenSize: Size = new Size();
 
@@ -87,20 +103,59 @@ export class Player extends Component {
       collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
     }
   }
-
+  protected start(): void {
+    this.lifeCountUI.updateUI(this.lifeCount);
+  }
   // 碰撞效果處理
   onBeginContact(
     selfCollider: Collider2D,
     otherCollider: Collider2D,
     contact: IPhysics2DContact | null
   ) {
-    if (!this.isInvincible) {
-      this.isInvincible = true;
-    } else return;
+    const reward = otherCollider.getComponent(Reward);
+    if (reward) {
+      this.onContactToReward(reward);
+    } else {
+      this.onContactToEnemy();
+    }
+  }
 
+  transitionToOneShoot() {
+    this.shootType = ShootType.OneShoot;
+  }
+
+  transitionToTwoShoot() {
+    this.shootType = ShootType.TwoShoot;
+    this.twoShootTimer = 0;
+  }
+
+  transitionToBomb() {}
+
+  lastReward: Reward = null;
+  onContactToReward(reward: Reward) {
+    if (reward == this.lastReward) return;
+    this.lastReward = reward;
+
+    switch (reward.rewardType) {
+      case RewardType.TwoShoot:
+        this.transitionToTwoShoot();
+        break;
+      case RewardType.Bomb:
+        GameManager.getInstance().addBomb();
+        break;
+    }
+    reward.getComponent(Collider2D).enabled = false;
+    reward.getComponent(Sprite).enabled = false;
+  }
+
+  // 敵機碰撞
+  onContactToEnemy() {
+    if (this.isInvincible) return;
+    this.isInvincible = true;
+
+    this.changeLifeCount(-1);
     let collider = this.getComponent(Collider2D);
-    console.log("onBeginContact");
-    this.lifeCount -= 1;
+
     if (this.lifeCount > 0) {
       this.anim.play(this.animHit);
     } else {
@@ -112,10 +167,19 @@ export class Player extends Component {
       if (collider) {
         collider.enabled = false;
       }
+      this.scheduleOnce(() => {
+        GameManager.getInstance().gameOver();
+      }, 1);
     }
   }
 
+  changeLifeCount(count: number) {
+    this.lifeCount += count;
+    this.lifeCountUI.updateUI(this.lifeCount);
+  }
+
   onTouchMove(event: EventTouch) {
+    if (director.isPaused()) return;
     if (this.lifeCount < 1) return;
     const p = this.node.position;
     this.node.setPosition(
@@ -146,7 +210,13 @@ export class Player extends Component {
       bullet01.setWorldPosition(this.position01.worldPosition);
     }
   }
+
   twoShoot(dt: number) {
+    this.twoShootTimer += dt;
+    if (this.twoShootTimer > this.twoShootTime) {
+      this.transitionToOneShoot();
+    }
+
     this.shootTimer += dt;
     if (this.shootTimer >= this.shotRate) {
       this.shootTimer = 0;
@@ -158,6 +228,12 @@ export class Player extends Component {
       bullet02.setWorldPosition(this.position03.worldPosition);
     }
   }
+  // disableControl() {
+  //   this.isControl = false;
+  // }
+  // enableControl() {
+  //   this.isControl = true;
+  // }
 
   protected update(dt: number): void {
     switch (this.shootType) {

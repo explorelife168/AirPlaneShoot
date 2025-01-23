@@ -60,7 +60,7 @@
       "z": 1
     },
     "_mobility": 0,
-    "_layer": 33554432,
+    "_layer": 1,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -113,7 +113,7 @@
       "z": 1
     },
     "_mobility": 0,
-    "_layer": 33554432,
+    "_layer": 1,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -284,6 +284,7 @@
     },
     "animHit": "",
     "animDown": "Enemy0_Down",
+    "score": 1000,
     "_id": ""
   },
   {
@@ -379,6 +380,7 @@
       "__id__": 0
     },
     "fileId": "75Rhas4bZOs7HThk1KtwFl",
+    "instance": null,
     "targetOverrides": null
   }
 ]
